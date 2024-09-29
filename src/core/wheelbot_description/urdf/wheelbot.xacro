@@ -1,0 +1,192 @@
+<?xml version="1.0" ?>
+<robot name="wheelbot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find wheelbot_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find wheelbot_description)/urdf/wheelbot.trans" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.00016189497531952227 0.1633444525971556 0.4814496560775765" rpy="0 0 0"/>
+    <mass value="59.27638632244937"/>
+    <inertia ixx="4.720672" iyy="5.782044" izz="3.655411" ixy="-0.001302" iyz="-0.338954" ixz="0.001314"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://wheelbot_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="opaque157207237"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://wheelbot_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_wheel_1">
+  <inertial>
+    <origin xyz="-0.03302712931683613 -8.171934190864816e-07 2.857522727592321e-06" rpy="0 0 0"/>
+    <mass value="4.057588262006871"/>
+    <inertia ixx="0.018746" iyy="0.010112" izz="0.010112" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.20365 -0.025 -0.08635" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://wheelbot_description/meshes/right_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin xyz="0.20365 -0.025 -0.08635" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://wheelbot_description/meshes/right_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_wheel_1">
+  <inertial>
+    <origin xyz="0.03134010792131103 -2.2049547375377343e-06 -2.3096051485343994e-06" rpy="0 0 0"/>
+    <mass value="4.057588262006871"/>
+    <inertia ixx="0.018746" iyy="0.010179" izz="0.010179" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.21 -0.025 -0.08635" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://wheelbot_description/meshes/left_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="opaque127127127"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.21 -0.025 -0.08635" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://wheelbot_description/meshes/left_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="caster_1">
+  <inertial>
+    <origin xyz="0.03640734431965448 -0.022805237611954632 -0.08969759421875342" rpy="0 0 0"/>
+    <mass value="2.7443676226430105"/>
+    <inertia ixx="0.005721" iyy="0.00677" izz="0.003612" ixy="0.001317" iyz="-0.000555" ixz="0.000911"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.33 -0.16535" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://wheelbot_description/meshes/caster_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="opaque192192192"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.33 -0.16535" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://wheelbot_description/meshes/caster_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="RPLiDAR_v1_1">
+  <inertial>
+    <origin xyz="2.2997331597459713e-05 -0.0009682652866699337 0.018644116748628536" rpy="0 0 0"/>
+    <mass value="1.2800671745342438"/>
+    <inertia ixx="0.000583" iyy="0.000583" izz="0.000847" ixy="-0.0" iyz="1.4e-05" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 0.077 -0.25535" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://wheelbot_description/meshes/RPLiDAR_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="_"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 0.077 -0.25535" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://wheelbot_description/meshes/RPLiDAR_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Intel_Realsense_D435_1">
+  <inertial>
+    <origin xyz="-5.299270511519333e-07 0.012729830691673744 -0.025048200076701943" rpy="0 0 0"/>
+    <mass value="0.3783774808035141"/>
+    <inertia ixx="3.5e-05" iyy="0.000238" izz="0.00024" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="1e-06 0.0045 -0.76835" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://wheelbot_description/meshes/Intel_Realsense_D435_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="opaque229235237"/>
+  </visual>
+  <collision>
+    <origin xyz="1e-06 0.0045 -0.76835" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://wheelbot_description/meshes/Intel_Realsense_D435_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="HESAI_LiDAR_1">
+  <inertial>
+    <origin xyz="0.0 -0.3845 -0.89835" rpy="0 0 0"/>
+    <mass value="0.0"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.3845 -0.89835" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://wheelbot_description/meshes/HESAI_LiDAR_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="_"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.3845 -0.89835" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://wheelbot_description/meshes/HESAI_LiDAR_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="rev1" type="continuous">
+  <origin xyz="-0.20365 0.025 0.08635" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="right_wheel_1"/>
+  <axis xyz="-1.0 0.0 0.0"/>
+</joint>
+
+<joint name="rev2" type="continuous">
+  <origin xyz="0.21 0.025 0.08635" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="left_wheel_1"/>
+  <axis xyz="-1.0 0.0 0.0"/>
+</joint>
+
+<joint name="rev3" type="continuous">
+  <origin xyz="0.0 0.33 0.16535" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="caster_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+</joint>
+
+<joint name="joint1" type="fixed">
+  <origin xyz="0.0 -0.077 0.25535" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="RPLiDAR_v1_1"/>
+</joint>
+
+<joint name="joint2" type="fixed">
+  <origin xyz="-1e-06 -0.0045 0.76835" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Intel_Realsense_D435_1"/>
+</joint>
+
+<joint name="joint3" type="fixed">
+  <origin xyz="0.0 0.3845 0.89835" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="HESAI_LiDAR_1"/>
+</joint>
+
+</robot>
