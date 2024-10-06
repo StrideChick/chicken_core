@@ -1,0 +1,34 @@
+[0.096s] Invoking command in '/home/suke/chicken_core/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/wheelbot_control:/home/suke/chicken_core/install/sensor_bringup:/home/suke/chicken_core/install/joy_translate:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/linefit_ground_segmentation -- -j12 -l12
+[0.890s] [35m[1mConsolidate compiler generated dependencies of target linefit_ground_segmentation[0m
+[0.890s] [100%] Built target linefit_ground_segmentation
+[0.901s] Invoked command in '/home/suke/chicken_core/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/wheelbot_control:/home/suke/chicken_core/install/sensor_bringup:/home/suke/chicken_core/install/joy_translate:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/linefit_ground_segmentation -- -j12 -l12
+[0.997s] Invoking command in '/home/suke/chicken_core/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/wheelbot_control:/home/suke/chicken_core/install/sensor_bringup:/home/suke/chicken_core/install/joy_translate:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/linefit_ground_segmentation
+[1.018s] -- Install configuration: ""
+[1.020s] -- Execute custom install script
+[1.020s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/include/ground_segmentation/bin.h
+[1.020s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/include/ground_segmentation/ground_segmentation.h
+[1.021s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/include/ground_segmentation/segment.h
+[1.021s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/include/ground_segmentation/typedefs.h
+[1.021s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/include/ground_segmentation/viewer.h
+[1.021s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/library_path.sh
+[1.021s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/library_path.dsv
+[1.021s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/lib/liblinefit_ground_segmentation.so
+[1.021s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/share/ament_index/resource_index/package_run_dependencies/linefit_ground_segmentation
+[1.021s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/share/ament_index/resource_index/parent_prefix_path/linefit_ground_segmentation
+[1.021s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/ament_prefix_path.sh
+[1.022s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/ament_prefix_path.dsv
+[1.022s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/path.sh
+[1.024s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/path.dsv
+[1.024s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.bash
+[1.024s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.sh
+[1.024s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.zsh
+[1.024s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.dsv
+[1.024s] -- Symlinking: /home/suke/chicken_core/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.dsv
+[1.039s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/share/ament_index/resource_index/packages/linefit_ground_segmentation
+[1.039s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.039s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.039s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_libraries-extras.cmake
+[1.039s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationConfig.cmake
+[1.039s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationConfig-version.cmake
+[1.039s] -- Up-to-date symlink: /home/suke/chicken_core/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.xml
+[1.084s] Invoked command in '/home/suke/chicken_core/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/wheelbot_control:/home/suke/chicken_core/install/sensor_bringup:/home/suke/chicken_core/install/joy_translate:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/linefit_ground_segmentation

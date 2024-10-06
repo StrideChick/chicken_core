@@ -1,0 +1,67 @@
+[35m[1mConsolidate compiler generated dependencies of target ekf_localization_component[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o[0m
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:[m[K In member function ‘[01m[Kvoid ekf_localization::ExtendedKalmanFilter::imu_callback(const Imu&)[m[K’:
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:99:27:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3Stamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+   99 |       geometry_msgs::msg::[01;31m[KVector3Stamped[m[K acc_in, acc_out, w_in, w_out;
+      |                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:100:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kacc_in[m[K’ was not declared in this scope
+  100 |       [01;31m[Kacc_in[m[K.vector.x = msg->linear_acceleration.x;
+      |       [01;31m[K^~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:100:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Imu[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’}
+  100 |       acc_in.vector.x = msg[01;31m[K->[m[Klinear_acceleration.x;
+      |                            [01;31m[K^~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:101:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Imu[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’}
+  101 |       acc_in.vector.y = msg[01;31m[K->[m[Klinear_acceleration.y;
+      |                            [01;31m[K^~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:102:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Imu[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’}
+  102 |       acc_in.vector.z = msg[01;31m[K->[m[Klinear_acceleration.z;
+      |                            [01;31m[K^~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:103:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kw_in[m[K’ was not declared in this scope
+  103 |       [01;31m[Kw_in[m[K.vector.x = msg->angular_velocity.x;
+      |       [01;31m[K^~~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:103:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Imu[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’}
+  103 |       w_in.vector.x = msg[01;31m[K->[m[Kangular_velocity.x;
+      |                          [01;31m[K^~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:104:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Imu[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’}
+  104 |       w_in.vector.y = msg[01;31m[K->[m[Kangular_velocity.y;
+      |                          [01;31m[K^~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:105:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Imu[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’}
+  105 |       w_in.vector.z = msg[01;31m[K->[m[Kangular_velocity.z;
+      |                          [01;31m[K^~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:106:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  106 |       [01;31m[Ktf2[m[K::TimePoint time_point = tf2::TimePoint(
+      |       [01;31m[K^~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:110:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktfbuffer_[m[K’ was not declared in this scope
+  110 |         [01;31m[Ktfbuffer_[m[K.lookupTransform(
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:112:12:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Imu[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’}
+  112 |         msg[01;31m[K->[m[Kheader.frame_id,
+      |            [01;31m[K^~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:113:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_point[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::chrono::time_point[m[K’?
+  113 |         [01;31m[Ktime_point[m[K);
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Kstd::chrono::time_point[m[K
+In file included from [01m[K/usr/include/c++/11/mutex:39[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:3[m[K:
+[01m[K/usr/include/c++/11/chrono:81:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::chrono::time_point[m[K’ declared here
+   81 |       struct [01;36m[Ktime_point[m[K;
+      |              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:114:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  114 |       [01;31m[Ktf2[m[K::doTransform(acc_in, acc_out, transform);
+      |       [01;31m[K^~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:114:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kacc_out[m[K’ was not declared in this scope; did you mean ‘[01m[Kacct[m[K’?
+  114 |       tf2::doTransform(acc_in, [01;31m[Kacc_out[m[K, transform);
+      |                                [01;31m[K^~~~~~~[m[K
+      |                                [32m[Kacct[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:115:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  115 |       [01;31m[Ktf2[m[K::doTransform(w_in, w_out, transform);
+      |       [01;31m[K^~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:115:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kw_out[m[K’ was not declared in this scope
+  115 |       tf2::doTransform(w_in, [01;31m[Kw_out[m[K, transform);
+      |                              [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/ekf_localization_component.dir/build.make:76: CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ekf_localization_component.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

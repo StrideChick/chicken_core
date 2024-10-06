@@ -1,0 +1,1 @@
+/home/suke/chicken_core/src/sensor/ydlidar_ros2_driver/launch/ydlidar_launch_view.py

@@ -1,0 +1,19 @@
+In file included from [01m[K/home/suke/chicken_core/src/planner/a_star_planner/include/a_star_planner/astar_planner.hpp:5[m[K,
+                 from [01m[K/home/suke/chicken_core/src/planner/a_star_planner/include/a_star_planner/a_star_component.hpp:4[m[K,
+                 from [01m[K/home/suke/chicken_core/src/planner/a_star_planner/src/a_star_component.cpp:1[m[K:
+[01m[K/home/suke/chicken_core/src/planner/a_star_planner/include/a_star_planner/node.hpp:[m[K In constructor ‘[01m[KNode2D::Node2D(int, int, double, Node2D*)[m[K’:
+[01m[K/home/suke/chicken_core/src/planner/a_star_planner/include/a_star_planner/node.hpp:46:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KNode2D::f_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   46 |   double [01;35m[Kf_[m[K;
+      |          [01;35m[K^~[m[K
+[01m[K/home/suke/chicken_core/src/planner/a_star_planner/include/a_star_planner/node.hpp:43:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KNode2D* Node2D::parent_[m[K’ [[01;35m[K-Wreorder[m[K]
+   43 |   Node2D * [01;35m[Kparent_[m[K;
+      |            [01;35m[K^~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/planner/a_star_planner/include/a_star_planner/node.hpp:10:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   10 |   [01;35m[KNode2D[m[K(int x = 0, int y = 0, double g = 0.0, Node2D * parent = NULL)
+      |   [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/suke/chicken_core/src/planner/a_star_planner/include/a_star_planner/a_star_component.hpp:5[m[K,
+                 from [01m[K/home/suke/chicken_core/src/planner/a_star_planner/src/a_star_component.cpp:1[m[K:
+[01m[K/home/suke/chicken_core/src/planner/a_star_planner/include/a_star_planner/smoother.hpp:[m[K In member function ‘[01m[Kstd::vector<nav_msgs::msg::Path_<std::allocator<void> > > Smoother::split_path(nav_msgs::msg::Path)[m[K’:
+[01m[K/home/suke/chicken_core/src/planner/a_star_planner/include/a_star_planner/smoother.hpp:95:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   95 |     for (int i = 0; [01;35m[Ki < path.poses.size() - 1[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K

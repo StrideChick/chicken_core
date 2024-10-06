@@ -1,0 +1,26 @@
+[1.210s] Invoking command in '/home/suke/chicken_core/src/planner/planner_bringup': PYTHONPATH=/home/suke/chicken_core/build/planner_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/planner_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/planner_bringup build --build-base /home/suke/chicken_core/build/planner_bringup/build install --record /home/suke/chicken_core/build/planner_bringup/install.log --single-version-externally-managed install_data
+[1.436s] /home/suke/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[1.437s]   warnings.warn(msg)
+[1.578s] running egg_info
+[1.578s] creating ../../../build/planner_bringup/planner_bringup.egg-info
+[1.602s] writing ../../../build/planner_bringup/planner_bringup.egg-info/PKG-INFO
+[1.602s] writing dependency_links to ../../../build/planner_bringup/planner_bringup.egg-info/dependency_links.txt
+[1.603s] writing requirements to ../../../build/planner_bringup/planner_bringup.egg-info/requires.txt
+[1.603s] writing top-level names to ../../../build/planner_bringup/planner_bringup.egg-info/top_level.txt
+[1.603s] writing manifest file '../../../build/planner_bringup/planner_bringup.egg-info/SOURCES.txt'
+[1.629s] reading manifest file '../../../build/planner_bringup/planner_bringup.egg-info/SOURCES.txt'
+[1.630s] writing manifest file '../../../build/planner_bringup/planner_bringup.egg-info/SOURCES.txt'
+[1.630s] running build
+[1.630s] running install
+[1.635s] running install_data
+[1.635s] creating /home/suke/chicken_core/install/planner_bringup/share/ament_index
+[1.635s] creating /home/suke/chicken_core/install/planner_bringup/share/ament_index/resource_index
+[1.635s] creating /home/suke/chicken_core/install/planner_bringup/share/ament_index/resource_index/packages
+[1.635s] copying resource/planner_bringup -> /home/suke/chicken_core/install/planner_bringup/share/ament_index/resource_index/packages
+[1.635s] copying package.xml -> /home/suke/chicken_core/install/planner_bringup/share/planner_bringup
+[1.635s] copying launch/planner_bringup_launch.py -> /home/suke/chicken_core/install/planner_bringup/share/planner_bringup
+[1.636s] running install_egg_info
+[1.687s] Copying ../../../build/planner_bringup/planner_bringup.egg-info to /home/suke/chicken_core/install/planner_bringup/lib/python3.10/site-packages/planner_bringup-0.0.0-py3.10.egg-info
+[1.687s] running install_scripts
+[1.899s] writing list of installed files to '/home/suke/chicken_core/build/planner_bringup/install.log'
+[1.921s] Invoked command in '/home/suke/chicken_core/src/planner/planner_bringup' returned '0': PYTHONPATH=/home/suke/chicken_core/build/planner_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/planner_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/planner_bringup build --build-base /home/suke/chicken_core/build/planner_bringup/build install --record /home/suke/chicken_core/build/planner_bringup/install.log --single-version-externally-managed install_data

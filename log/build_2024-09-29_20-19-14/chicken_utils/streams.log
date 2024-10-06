@@ -1,0 +1,30 @@
+[0.103s] Invoking command in '/home/suke/chicken_core/build/chicken_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/wheelbot_control:/home/suke/chicken_core/install/sensor_bringup:/home/suke/chicken_core/install/joy_translate:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/chicken_utils -- -j12 -l12
+[0.898s] [35m[1mConsolidate compiler generated dependencies of target quaternion_utils[0m
+[0.899s] [100%] Built target quaternion_utils
+[0.910s] Invoked command in '/home/suke/chicken_core/build/chicken_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/wheelbot_control:/home/suke/chicken_core/install/sensor_bringup:/home/suke/chicken_core/install/joy_translate:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/chicken_utils -- -j12 -l12
+[0.978s] Invoking command in '/home/suke/chicken_core/build/chicken_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/wheelbot_control:/home/suke/chicken_core/install/sensor_bringup:/home/suke/chicken_core/install/joy_translate:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/chicken_utils
+[1.004s] -- Install configuration: ""
+[1.005s] -- Execute custom install script
+[1.005s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/include/chicken_utils/quaternion_utils.hpp
+[1.005s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/share/chicken_utils/environment/library_path.sh
+[1.005s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/share/chicken_utils/environment/library_path.dsv
+[1.005s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/lib/libquaternion_utils.so
+[1.005s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/share/ament_index/resource_index/package_run_dependencies/chicken_utils
+[1.005s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/share/ament_index/resource_index/parent_prefix_path/chicken_utils
+[1.005s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/share/chicken_utils/environment/ament_prefix_path.sh
+[1.005s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/share/chicken_utils/environment/ament_prefix_path.dsv
+[1.005s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/share/chicken_utils/environment/path.sh
+[1.006s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/share/chicken_utils/environment/path.dsv
+[1.006s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/share/chicken_utils/local_setup.bash
+[1.006s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/share/chicken_utils/local_setup.sh
+[1.006s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/share/chicken_utils/local_setup.zsh
+[1.006s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/share/chicken_utils/local_setup.dsv
+[1.006s] -- Symlinking: /home/suke/chicken_core/install/chicken_utils/share/chicken_utils/package.dsv
+[1.018s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/share/ament_index/resource_index/packages/chicken_utils
+[1.019s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/share/chicken_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.019s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/share/chicken_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.019s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/share/chicken_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[1.020s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/share/chicken_utils/cmake/chicken_utilsConfig.cmake
+[1.020s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/share/chicken_utils/cmake/chicken_utilsConfig-version.cmake
+[1.020s] -- Up-to-date symlink: /home/suke/chicken_core/install/chicken_utils/share/chicken_utils/package.xml
+[1.027s] Invoked command in '/home/suke/chicken_core/build/chicken_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/wheelbot_control:/home/suke/chicken_core/install/sensor_bringup:/home/suke/chicken_core/install/joy_translate:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/chicken_utils

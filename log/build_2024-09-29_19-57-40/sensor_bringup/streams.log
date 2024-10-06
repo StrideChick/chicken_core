@@ -1,0 +1,38 @@
+[2.327s] Invoking command in '/home/suke/chicken_core/build/sensor_bringup': PYTHONPATH=/home/suke/chicken_core/build/sensor_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/sensor_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/suke/chicken_core/build/sensor_bringup/build --no-deps symlink_data
+[2.766s] /home/suke/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[2.766s]   warnings.warn(msg)
+[2.899s] running develop
+[2.900s] /home/suke/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.900s] !!
+[2.900s] 
+[2.900s]         ********************************************************************************
+[2.900s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.901s]         Instead, use pypa/build, pypa/installer or other
+[2.902s]         standards-based tools.
+[2.902s] 
+[2.902s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.902s]         ********************************************************************************
+[2.903s] 
+[2.903s] !!
+[2.903s]   easy_install.initialize_options(self)
+[3.391s] running egg_info
+[3.391s] creating sensor_bringup.egg-info
+[3.433s] writing sensor_bringup.egg-info/PKG-INFO
+[3.434s] writing dependency_links to sensor_bringup.egg-info/dependency_links.txt
+[3.434s] writing requirements to sensor_bringup.egg-info/requires.txt
+[3.435s] writing top-level names to sensor_bringup.egg-info/top_level.txt
+[3.435s] writing manifest file 'sensor_bringup.egg-info/SOURCES.txt'
+[3.536s] reading manifest file 'sensor_bringup.egg-info/SOURCES.txt'
+[3.536s] writing manifest file 'sensor_bringup.egg-info/SOURCES.txt'
+[3.586s] running build_ext
+[3.586s] Creating /home/suke/chicken_core/install/sensor_bringup/lib/python3.10/site-packages/sensor-bringup.egg-link (link to .)
+[3.586s] 
+[3.587s] Installed /home/suke/chicken_core/build/sensor_bringup
+[3.587s] running symlink_data
+[3.587s] creating /home/suke/chicken_core/install/sensor_bringup/share/ament_index
+[3.587s] creating /home/suke/chicken_core/install/sensor_bringup/share/ament_index/resource_index
+[3.587s] creating /home/suke/chicken_core/install/sensor_bringup/share/ament_index/resource_index/packages
+[3.587s] symbolically linking /home/suke/chicken_core/build/sensor_bringup/resource/sensor_bringup -> /home/suke/chicken_core/install/sensor_bringup/share/ament_index/resource_index/packages
+[3.587s] symbolically linking /home/suke/chicken_core/build/sensor_bringup/package.xml -> /home/suke/chicken_core/install/sensor_bringup/share/sensor_bringup
+[3.587s] symbolically linking /home/suke/chicken_core/build/sensor_bringup/launch/sensor_bringup_launch.py -> /home/suke/chicken_core/install/sensor_bringup/share/sensor_bringup
+[3.707s] Invoked command in '/home/suke/chicken_core/build/sensor_bringup' returned '0': PYTHONPATH=/home/suke/chicken_core/build/sensor_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/sensor_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/suke/chicken_core/build/sensor_bringup/build --no-deps symlink_data

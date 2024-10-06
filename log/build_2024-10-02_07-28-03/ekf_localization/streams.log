@@ -1,0 +1,53 @@
+[0.014s] Invoking command in '/home/suke/chicken_core/build/ekf_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake /home/suke/chicken_core/src/localization/ekf_localization -DCMAKE_INSTALL_PREFIX=/home/suke/chicken_core/install/ekf_localization
+[0.077s] -- The C compiler identification is GNU 11.4.0
+[0.136s] -- The CXX compiler identification is GNU 11.4.0
+[0.146s] -- Detecting C compiler ABI info
+[0.213s] -- Detecting C compiler ABI info - done
+[0.220s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.220s] -- Detecting C compile features
+[0.220s] -- Detecting C compile features - done
+[0.223s] -- Detecting CXX compiler ABI info
+[0.298s] -- Detecting CXX compiler ABI info - done
+[0.305s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.306s] -- Detecting CXX compile features
+[0.306s] -- Detecting CXX compile features - done
+[0.312s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.712s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.076s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.090s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.109s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.136s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.171s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.361s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.370s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.425s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.449s] -- Looking for pthread.h
+[1.548s] -- Looking for pthread.h - found
+[1.548s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.646s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.647s] -- Found Threads: TRUE  
+[1.830s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.893s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.898s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.898s] -- Configured cppcheck include dirs: /home/suke/chicken_core/src/localization/ekf_localization/include
+[1.898s] -- Configured cppcheck exclude dirs and/or files: 
+[1.903s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.903s] -- Configured cpplint exclude dirs and/or files: 
+[1.906s] -- Added test 'lint_cmake' to check CMake code style
+[1.910s] -- Added test 'uncrustify' to check C / C++ code style
+[1.911s] -- Configured uncrustify additional arguments: 
+[1.913s] -- Added test 'xmllint' to check XML markup files
+[1.918s] -- Configuring done
+[1.938s] -- Generating done
+[1.940s] -- Build files have been written to: /home/suke/chicken_core/build/ekf_localization
+[1.951s] Invoked command in '/home/suke/chicken_core/build/ekf_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake /home/suke/chicken_core/src/localization/ekf_localization -DCMAKE_INSTALL_PREFIX=/home/suke/chicken_core/install/ekf_localization
+[1.953s] Invoking command in '/home/suke/chicken_core/build/ekf_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/ekf_localization -- -j12 -l12
+[2.017s] [ 25%] [32mBuilding CXX object CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o[0m
+[2.762s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kekf_localization/ekf_localization_component.hpp: No such file or directory
+[2.762s]     9 | #include [01;31m[K<ekf_localization/ekf_localization_component.hpp>[m[K
+[2.762s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.762s] compilation terminated.
+[2.770s] gmake[2]: *** [CMakeFiles/ekf_localization_component.dir/build.make:76: CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o] Error 1
+[2.770s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ekf_localization_component.dir/all] Error 2
+[2.770s] gmake: *** [Makefile:146: all] Error 2
+[2.772s] Invoked command in '/home/suke/chicken_core/build/ekf_localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/ekf_localization -- -j12 -l12

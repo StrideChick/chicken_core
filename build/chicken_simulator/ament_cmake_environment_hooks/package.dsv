@@ -1,0 +1,4 @@
+source;share/chicken_simulator/local_setup.bash
+source;share/chicken_simulator/local_setup.dsv
+source;share/chicken_simulator/local_setup.sh
+source;share/chicken_simulator/local_setup.zsh

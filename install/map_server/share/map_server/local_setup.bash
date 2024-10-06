@@ -1,0 +1,1 @@
+/home/suke/chicken_core/build/map_server/ament_cmake_environment_hooks/local_setup.bash

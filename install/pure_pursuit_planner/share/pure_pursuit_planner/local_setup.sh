@@ -1,0 +1,1 @@
+/home/suke/chicken_core/build/pure_pursuit_planner/ament_cmake_environment_hooks/local_setup.sh

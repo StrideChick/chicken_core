@@ -1,0 +1,38 @@
+[35m[1mConsolidate compiler generated dependencies of target pure_pursuit_planner[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/pure_pursuit_planner.dir/src/pure_pursuit_planner_component.cpp.o[0m
+[01m[K/home/suke/chicken_core/src/planner/pure_pursuit_planner/src/pure_pursuit_planner_component.cpp:[m[K In member function ‘[01m[Kvoid PurePursuitNode::updateControl()[m[K’:
+[01m[K/home/suke/chicken_core/src/planner/pure_pursuit_planner/src/pure_pursuit_planner_component.cpp:29:10:[m[K [01;35m[Kwarning: [m[Kstructured binding declaration set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   29 |     auto [01;35m[K[v, w][m[K = purePursuitControl(target_ind);
+      |          [01;35m[K^~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/planner/pure_pursuit_planner/src/pure_pursuit_planner_component.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> PurePursuitNode::purePursuitControl(int&)[m[K’:
+[01m[K/home/suke/chicken_core/src/planner/pure_pursuit_planner/src/pure_pursuit_planner_component.cpp:40:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktarget_lookahed_x[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   40 |     double [01;35m[Ktarget_lookahed_x[m[K, target_lookahed_y, target_curvature;
+      |            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/planner/pure_pursuit_planner/src/pure_pursuit_planner_component.cpp:40:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktarget_lookahed_y[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   40 |     double target_lookahed_x, [01;35m[Ktarget_lookahed_y[m[K, target_curvature;
+      |                               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/planner/pure_pursuit_planner/src/pure_pursuit_planner_component.cpp:40:50:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktarget_curvature[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   40 |     double target_lookahed_x, target_lookahed_y, [01;35m[Ktarget_curvature[m[K;
+      |                                                  [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[ 66%] [32m[1mLinking CXX executable pure_pursuit_planner[0m
+[100%] Built target pure_pursuit_planner
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/lib/pure_pursuit_planner/pure_pursuit_planner
+-- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/share/pure_pursuit_planner/launch/pure_pursuit_planner.py
+-- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/share/pure_pursuit_planner/rviz/pure_pursuit_planner.rviz
+-- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/share/ament_index/resource_index/package_run_dependencies/pure_pursuit_planner
+-- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/share/ament_index/resource_index/parent_prefix_path/pure_pursuit_planner
+-- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/share/pure_pursuit_planner/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/share/pure_pursuit_planner/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/share/pure_pursuit_planner/environment/path.sh
+-- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/share/pure_pursuit_planner/environment/path.dsv
+-- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/share/pure_pursuit_planner/local_setup.bash
+-- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/share/pure_pursuit_planner/local_setup.sh
+-- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/share/pure_pursuit_planner/local_setup.zsh
+-- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/share/pure_pursuit_planner/local_setup.dsv
+-- Symlinking: /home/suke/chicken_core/install/pure_pursuit_planner/share/pure_pursuit_planner/package.dsv
+-- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/share/ament_index/resource_index/packages/pure_pursuit_planner
+-- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/share/pure_pursuit_planner/cmake/pure_pursuit_plannerConfig.cmake
+-- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/share/pure_pursuit_planner/cmake/pure_pursuit_plannerConfig-version.cmake
+-- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/share/pure_pursuit_planner/package.xml

@@ -1,0 +1,56 @@
+[0.018s] Invoking command in '/home/suke/chicken_core/build/ekf_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/ekf_localization -- -j12 -l12
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target ekf_localization_component[0m
+[0.099s] [ 50%] [32mBuilding CXX object CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o[0m
+[9.092s] In file included from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:4[m[K:
+[9.092s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/include/ekf_localization/ekf_localization_component.hpp:61:41:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseWithCovarianceStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KTwistWithCovarianceStamped[m[K’?
+[9.092s]    61 |   rclcpp::Publisher<geometry_msgs::msg::[01;31m[KPoseWithCovarianceStamped[m[K>::SharedPtr ekf_pose_publisher_;
+[9.092s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.093s]       |                                         [32m[KTwistWithCovarianceStamped[m[K
+[9.093s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/include/ekf_localization/ekf_localization_component.hpp:61:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.093s]    61 |   rclcpp::Publisher<geometry_msgs::msg::PoseWithCovarianceStamped[01;31m[K>[m[K::SharedPtr ekf_pose_publisher_;
+[9.093s]       |                                                                  [01;31m[K^[m[K
+[9.093s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/include/ekf_localization/ekf_localization_component.hpp:61:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[9.093s]    61 |   rclcpp::Publisher<geometry_msgs::msg::PoseWithCovarianceStamped>::[01;31m[KSharedPtr[m[K ekf_pose_publisher_;
+[9.093s]       |                                                                     [01;31m[K^~~~~~~~~[m[K
+[9.093s]       |                                                                              [32m[K;[m[K
+[9.093s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/include/ekf_localization/ekf_localization_component.hpp:61:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kekf_pose_publisher_[m[K’ does not name a type
+[9.093s]    61 |   rclcpp::Publisher<geometry_msgs::msg::PoseWithCovarianceStamped>::SharedPtr [01;31m[Kekf_pose_publisher_[m[K;
+[9.093s]       |                                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.093s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:[m[K In constructor ‘[01m[Kekf_localization::ExtendedKalmanFilter::ExtendedKalmanFilter(const rclcpp::NodeOptions&)[m[K’:
+[9.094s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:40:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kekf_pose_publisher_[m[K’ was not declared in this scope
+[9.094s]    40 |   [01;31m[Kekf_pose_publisher_[m[K = this->create_publisher<geometry_msgs::msg::PoseWithCovarianceStamped>("/estimated_pose", 10);
+[9.094s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.094s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:40:68:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseWithCovarianceStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KTwistWithCovarianceStamped[m[K’?
+[9.094s]    40 |   ekf_pose_publisher_ = this->create_publisher<geometry_msgs::msg::[01;31m[KPoseWithCovarianceStamped[m[K>("/estimated_pose", 10);
+[9.094s]       |                                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.094s]       |                                                                    [32m[KTwistWithCovarianceStamped[m[K
+[9.094s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:40:94:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kekf_localization::ExtendedKalmanFilter::create_publisher<<expression error> >(const char [16], int)[m[K’
+[9.094s]    40 |   ekf_pose_publisher_ = [01;31m[Kthis->create_publisher<geometry_msgs::msg::PoseWithCovarianceStamped>("/estimated_pose", 10)[m[K;
+[9.094s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.094s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[9.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[9.095s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[9.095s]                  from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:3[m[K:
+[9.095s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[9.095s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[9.095s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[9.095s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.095s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:40:94:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.095s]    40 |   ekf_pose_publisher_ = [01;31m[Kthis->create_publisher<geometry_msgs::msg::PoseWithCovarianceStamped>("/estimated_pose", 10)[m[K;
+[9.095s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.095s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:[m[K In member function ‘[01m[Kvoid ekf_localization::ExtendedKalmanFilter::measurementUpdate(const Imu&)[m[K’:
+[9.095s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:211:23:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseWithCovarianceStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KTwistWithCovarianceStamped[m[K’?
+[9.095s]   211 |   geometry_msgs::msg::[01;31m[KPoseWithCovarianceStamped[m[K pose_ekf;
+[9.095s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.095s]       |                       [32m[KTwistWithCovarianceStamped[m[K
+[9.095s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:212:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_ekf[m[K’ was not declared in this scope
+[9.096s]   212 |   [01;31m[Kpose_ekf[m[K.header.stamp = imutimestamp;
+[9.096s]       |   [01;31m[K^~~~~~~~[m[K
+[9.096s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:213:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_frame_id_[m[K’ was not declared in this scope; did you mean ‘[01m[Krobot_frame_id_[m[K’?
+[9.096s]   213 |   pose_ekf.header.frame_id = [01;31m[Kmap_frame_id_[m[K;
+[9.096s]       |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[9.096s]       |                              [32m[Krobot_frame_id_[m[K
+[9.096s] gmake[2]: *** [CMakeFiles/ekf_localization_component.dir/build.make:76: CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o] Error 1
+[9.096s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ekf_localization_component.dir/all] Error 2
+[9.096s] gmake: *** [Makefile:146: all] Error 2
+[9.097s] Invoked command in '/home/suke/chicken_core/build/ekf_localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/ekf_localization -- -j12 -l12

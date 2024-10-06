@@ -1,0 +1,25 @@
+[0.014s] Invoking command in '/home/suke/chicken_core/build/ekf_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/ekf_localization -- -j12 -l12
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target ekf_localization_component[0m
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o[0m
+[13.681s] [100%] [32m[1mLinking CXX shared library libekf_localization_component.so[0m
+[14.395s] [100%] Built target ekf_localization_component
+[14.407s] Invoked command in '/home/suke/chicken_core/build/ekf_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/ekf_localization -- -j12 -l12
+[14.457s] Invoking command in '/home/suke/chicken_core/build/ekf_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/ekf_localization
+[14.467s] -- Install configuration: ""
+[14.468s] -- Installing: /home/suke/chicken_core/install/ekf_localization/include
+[14.468s] -- Installing: /home/suke/chicken_core/install/ekf_localization/include/ekf_localization
+[14.469s] -- Installing: /home/suke/chicken_core/install/ekf_localization/include/ekf_localization/ekf_localization_component.hpp
+[14.469s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/include
+[14.469s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/include/ekf_localization
+[14.469s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/include/ekf_localization/ekf_localization_component.hpp
+[14.469s] -- Installing: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/environment/library_path.sh
+[14.469s] -- Installing: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/environment/library_path.dsv
+[14.469s] -- Installing: /home/suke/chicken_core/install/ekf_localization/lib/libekf_localization_component.so
+[14.479s] -- Set runtime path of "/home/suke/chicken_core/install/ekf_localization/lib/libekf_localization_component.so" to ""
+[14.479s] [31mCMake Error at cmake_install.cmake:85 (file):
+[14.479s]   file INSTALL cannot find
+[14.479s]   "/home/suke/chicken_core/src/localization/ekf_localization/launch": No such
+[14.479s]   file or directory.
+[14.479s] 
+[14.479s] [0m
+[14.481s] Invoked command in '/home/suke/chicken_core/build/ekf_localization' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/ekf_localization

@@ -1,0 +1,1 @@
+/home/suke/chicken_core/build/wheelbot_description/ament_cmake_environment_hooks/local_setup.zsh

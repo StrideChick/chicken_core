@@ -1,0 +1,18 @@
+[0.015s] Invoking command in '/home/suke/chicken_core/build/pure_pursuit_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/pure_pursuit_planner -- -j12 -l12
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target pure_pursuit_planner[0m
+[0.092s] [100%] Built target pure_pursuit_planner
+[0.105s] Invoked command in '/home/suke/chicken_core/build/pure_pursuit_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/pure_pursuit_planner -- -j12 -l12
+[0.160s] Invoking command in '/home/suke/chicken_core/build/pure_pursuit_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/pure_pursuit_planner
+[0.169s] -- Install configuration: "Debug"
+[0.169s] -- Execute custom install script
+[0.169s] -- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/lib/pure_pursuit_planner/pure_pursuit_planner
+[0.169s] -- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/share/pure_pursuit_planner/launch/pure_pursuit_planner.py
+[0.170s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[0.170s]   ament_cmake_symlink_install_directory() can't find
+[0.170s]   '/home/suke/chicken_core/src/planner/pure_pursuit_planner/rviz'
+[0.170s] Call Stack (most recent call first):
+[0.170s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+[0.170s]   cmake_install.cmake:46 (include)
+[0.170s] 
+[0.170s] [0m
+[0.171s] Invoked command in '/home/suke/chicken_core/build/pure_pursuit_planner' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/pure_pursuit_planner

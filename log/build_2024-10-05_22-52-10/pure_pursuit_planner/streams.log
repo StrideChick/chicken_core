@@ -1,0 +1,42 @@
+[0.014s] Invoking command in '/home/suke/chicken_core/build/pure_pursuit_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/wheelbot_control:/home/suke/chicken_core/install/sensor_bringup:/home/suke/chicken_core/install/joy_translate:/home/suke/Documents/microros_ws/install/sensor_msgs_py:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake /home/suke/chicken_core/src/planner/pure_pursuit_planner -DCMAKE_INSTALL_PREFIX=/home/suke/chicken_core/install/pure_pursuit_planner
+[0.034s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.218s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.225s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.255s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.257s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.262s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.303s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.346s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.352s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.376s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.427s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.439s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.456s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.459s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.460s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.565s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.694s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.694s] -- Configured cppcheck include dirs: /home/suke/chicken_core/src/planner/pure_pursuit_planner/include
+[0.694s] -- Configured cppcheck exclude dirs and/or files: 
+[0.694s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.695s] -- Added test 'lint_cmake' to check CMake code style
+[0.696s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.698s] -- Added test 'uncrustify' to check C / C++ code style
+[0.698s] -- Configured uncrustify additional arguments: 
+[0.699s] -- Added test 'xmllint' to check XML markup files
+[0.700s] -- Configuring done
+[0.711s] -- Generating done
+[0.713s] -- Build files have been written to: /home/suke/chicken_core/build/pure_pursuit_planner
+[0.719s] Invoked command in '/home/suke/chicken_core/build/pure_pursuit_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/wheelbot_control:/home/suke/chicken_core/install/sensor_bringup:/home/suke/chicken_core/install/joy_translate:/home/suke/Documents/microros_ws/install/sensor_msgs_py:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake /home/suke/chicken_core/src/planner/pure_pursuit_planner -DCMAKE_INSTALL_PREFIX=/home/suke/chicken_core/install/pure_pursuit_planner
+[0.721s] Invoking command in '/home/suke/chicken_core/build/pure_pursuit_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/wheelbot_control:/home/suke/chicken_core/install/sensor_bringup:/home/suke/chicken_core/install/joy_translate:/home/suke/Documents/microros_ws/install/sensor_msgs_py:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/pure_pursuit_planner -- -j12 -l12
+[0.787s] [35m[1mConsolidate compiler generated dependencies of target pure_pursuit_planner[0m
+[0.811s] [ 50%] [32mBuilding CXX object CMakeFiles/pure_pursuit_planner.dir/src/pure_pursuit_planner_node.cpp.o[0m
+[4.010s] [100%] [32m[1mLinking CXX executable pure_pursuit_planner[0m
+[4.126s] /usr/bin/ld: CMakeFiles/pure_pursuit_planner.dir/src/pure_pursuit_planner_node.cpp.o: in function `void __gnu_cxx::new_allocator<PurePursuitNode>::construct<PurePursuitNode>(PurePursuitNode*)':
+[4.126s] pure_pursuit_planner_node.cpp:(.text._ZN9__gnu_cxx13new_allocatorI15PurePursuitNodeE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI15PurePursuitNodeE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `PurePursuitNode::PurePursuitNode()'
+[4.132s] collect2: error: ld returned 1 exit status
+[4.133s] gmake[2]: *** [CMakeFiles/pure_pursuit_planner.dir/build.make:206: pure_pursuit_planner] Error 1
+[4.133s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pure_pursuit_planner.dir/all] Error 2
+[4.134s] gmake: *** [Makefile:146: all] Error 2
+[4.136s] Invoked command in '/home/suke/chicken_core/build/pure_pursuit_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/wheelbot_control:/home/suke/chicken_core/install/sensor_bringup:/home/suke/chicken_core/install/joy_translate:/home/suke/Documents/microros_ws/install/sensor_msgs_py:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/pure_pursuit_planner -- -j12 -l12

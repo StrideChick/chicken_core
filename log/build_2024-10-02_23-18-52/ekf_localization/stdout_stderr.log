@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target ekf_localization_component[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o[0m
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:72:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid ekf_localization::ExtendedKalmanFilter::odom_callback(nav_msgs::msg::Odometry&)[m[K’
+   72 | void [01;31m[KExtendedKalmanFilter[m[K::odom_callback(nav_msgs::msg::Odometry & msg)
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:8[m[K:
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/include/ekf_localization/ekf_localization_component.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid ekf_localization::ExtendedKalmanFilter::odom_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’
+   32 |   void [01;36m[Kodom_callback[m[K(const nav_msgs::msg::Odometry::SharedPtr msg);
+      |        [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/include/ekf_localization/ekf_localization_component.hpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ekf_localization::ExtendedKalmanFilter[m[K’ defined here
+   11 | class [01;36m[KExtendedKalmanFilter[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:82:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid ekf_localization::ExtendedKalmanFilter::imu_callback(const Imu&)[m[K’
+   82 | void [01;31m[KExtendedKalmanFilter[m[K::imu_callback(const sensor_msgs::msg::Imu & msg)
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:8[m[K:
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/include/ekf_localization/ekf_localization_component.hpp:33:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid ekf_localization::ExtendedKalmanFilter::imu_callback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’
+   33 |   void [01;36m[Kimu_callback[m[K(const sensor_msgs::msg::Imu::SharedPtr msg);
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/include/ekf_localization/ekf_localization_component.hpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ekf_localization::ExtendedKalmanFilter[m[K’ defined here
+   11 | class [01;36m[KExtendedKalmanFilter[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ekf_localization_component.dir/build.make:76: CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ekf_localization_component.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,91 @@
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:[m[K In member function ‘[01m[Kvoid ekf_localization::ExtendedKalmanFilter::imu_callback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:89:27:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3Stamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+   89 |       geometry_msgs::msg::[01;31m[KVector3Stamped[m[K acc_in, acc_out, w_in, w_out;
+      |                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:90:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kacc_in[m[K’ was not declared in this scope
+   90 |       [01;31m[Kacc_in[m[K.vector.x = msg->linear_acceleration.x;
+      |       [01;31m[K^~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:93:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kw_in[m[K’ was not declared in this scope
+   93 |       [01;31m[Kw_in[m[K.vector.x = msg->angular_velocity.x;
+      |       [01;31m[K^~~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:96:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   96 |       [01;31m[Ktf2[m[K::TimePoint time_point = tf2::TimePoint(
+      |       [01;31m[K^~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:99:33:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformStamped[m[K’ in namespace ‘[01m[Kgeometry_msgs::msg[m[K’ does not name a type
+   99 |       const geometry_msgs::msg::[01;31m[KTransformStamped[m[K transform =
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:104:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  104 |       [01;31m[Ktf2[m[K::doTransform(acc_in, acc_out, transform);
+      |       [01;31m[K^~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:104:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kacc_out[m[K’ was not declared in this scope; did you mean ‘[01m[Kacct[m[K’?
+  104 |       tf2::doTransform(acc_in, [01;31m[Kacc_out[m[K, transform);
+      |                                [01;31m[K^~~~~~~[m[K
+      |                                [32m[Kacct[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:104:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::transform[m[K’?
+  104 |       tf2::doTransform(acc_in, acc_out, [01;31m[Ktransform[m[K);
+      |                                         [01;31m[K^~~~~~~~~[m[K
+      |                                         [32m[Kstd::transform[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:5[m[K:
+[01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:162:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::transform[m[K’ declared here
+  162 | [01;36m[Ktransform[m[K(_ExecutionPolicy&& __exec, _ForwardIterator1 __first1, _ForwardIterator1 __last1, _ForwardIterator2 __first2,
+      | [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:105:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  105 |       [01;31m[Ktf2[m[K::doTransform(w_in, w_out, transform);
+      |       [01;31m[K^~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:105:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kw_out[m[K’ was not declared in this scope
+  105 |       tf2::doTransform(w_in, [01;31m[Kw_out[m[K, transform);
+      |                              [01;31m[K^~~~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:114:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ does not name a type
+  114 |     } catch ([01;31m[Ktf2[m[K::TransformException & e) {
+      |              [01;31m[K^~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:114:38:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  114 |     } catch (tf2::TransformException [01;31m[K&[m[K e) {
+      |                                      [01;31m[K^[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:114:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  114 |     } catch [34m[K([m[Ktf2::TransformException[01;31m[K [m[K[32m[K&[m[K e) {
+      |             [34m[K~[m[K                       [01;31m[K^[m[K[32m[K~[m[K
+      |                                     [32m[K)[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:114:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K&[m[K’ token
+  114 |     } catch (tf2::TransformException [01;31m[K&[m[K e) {
+      |                                      [01;31m[K^[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:114:40:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+  114 |     } catch (tf2::TransformException & [01;31m[Ke[m[K) {
+      |                                        [01;31m[K^[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:117:7:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kcatch[m[K’
+  117 |     } [01;31m[Kcatch[m[K (std::runtime_error & e) {
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:[m[K In member function ‘[01m[Kvoid ekf_localization::ExtendedKalmanFilter::predictUpdate(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:143:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Kdouble[m[K’ in initialization
+  143 |   double dt = [01;31m[Kodomtimestamp - prev_time_[m[K;
+      |               [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+      |                             [01;31m[K|[m[K
+      |                             [01;31m[Krclcpp::Duration[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:[m[K In member function ‘[01m[Kvoid ekf_localization::ExtendedKalmanFilter::measurementUpdate(sensor_msgs::msg::Imu)[m[K’:
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:173:21:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ksensor_msgs::msg::Imu[m[K’ {aka ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >[m[K’}
+  173 |   imutimestamp = msg[01;31m[K->[m[Kheader.stamp;
+      |                     [01;31m[K^~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:174:28:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Kdouble[m[K’ in initialization
+  174 |   double dt = [01;31m[Kimutimestamp - prev_time_[m[K;
+      |               [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+      |                            [01;31m[K|[m[K
+      |                            [01;31m[Krclcpp::Duration[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:177:12:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K+=[m[K’ token
+  177 |   double v [01;31m[K+=[m[K msg.linear_acceleration.x*dt;
+      |            [01;31m[K^~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:179:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kv[m[K’ was not declared in this scope
+  179 |   double dx = [01;31m[Kv[m[K*cos(theta);
+      |               [01;31m[K^[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:194:12:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[KEigen::VectorXd y[m[K’
+  194 |   VectorXd [01;31m[Ky[m[K = Z - h * X;
+      |            [01;31m[K^[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:178:20:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kdouble y[m[K’
+  178 |   double x = X(0), [01;36m[Ky[m[K = X(1), theta = X(2);
+      |                    [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/ekf_localization_component.dir/build.make:76: CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ekf_localization_component.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

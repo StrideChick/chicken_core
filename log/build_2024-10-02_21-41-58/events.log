@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000387] (-) JobUnselected: {'identifier': 'a_star_planner'}
+[0.000569] (-) JobUnselected: {'identifier': 'chicken_core'}
+[0.000702] (-) JobUnselected: {'identifier': 'chicken_simulator'}
+[0.000744] (-) JobUnselected: {'identifier': 'chicken_utils'}
+[0.000763] (-) JobUnselected: {'identifier': 'hesai_ros_driver'}
+[0.000794] (-) JobUnselected: {'identifier': 'joy_translate'}
+[0.000810] (-) JobUnselected: {'identifier': 'linefit_ground_segmentation'}
+[0.000825] (-) JobUnselected: {'identifier': 'linefit_ground_segmentation_ros'}
+[0.000840] (-) JobUnselected: {'identifier': 'map_server'}
+[0.000855] (-) JobUnselected: {'identifier': 'pure_pursuit_planner'}
+[0.000871] (-) JobUnselected: {'identifier': 'sensor_bringup'}
+[0.000886] (-) JobUnselected: {'identifier': 'wheelbot_control'}
+[0.000901] (-) JobUnselected: {'identifier': 'wheelbot_description'}
+[0.000916] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.000933] (ekf_localization) JobQueued: {'identifier': 'ekf_localization', 'dependencies': OrderedDict()}
+[0.000951] (ekf_localization) JobStarted: {'identifier': 'ekf_localization'}
+[0.014414] (ekf_localization) JobProgress: {'identifier': 'ekf_localization', 'progress': 'cmake'}
+[0.015238] (ekf_localization) JobProgress: {'identifier': 'ekf_localization', 'progress': 'build'}
+[0.016162] (ekf_localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/suke/chicken_core/build/ekf_localization', '--', '-j12', '-l12'], 'cwd': '/home/suke/chicken_core/build/ekf_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'suke'), ('LC_TIME', 'ja_JP.UTF-8'), ('CCACHE_DIR', '/var/tmp/ccache'), ('XDG_SESSION_TYPE', 'x11'), ('STM32CubeMX_PATH', '/home/suke/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/suke/ouxt_automation/robotx_ws/install/navi_sim/lib:/home/suke/ouxt_automation/robotx_ws/install/wamv_control/lib:/home/suke/ouxt_automation/robotx_ws/install/vrx_bridge/lib:/home/suke/ouxt_automation/robotx_ws/install/velocity_planner/lib:/home/suke/ouxt_automation/robotx_ws/install/usv_controller/lib:/home/suke/ouxt_automation/robotx_ws/install/robotx_communication/lib:/home/suke/ouxt_automation/robotx_ws/install/tcp_sender/lib:/home/suke/ouxt_automation/robotx_ws/install/playstation_controller_drivers/lib:/home/suke/ouxt_automation/robotx_ws/install/sdl2_vendor2/lib:/home/suke/ouxt_automation/robotx_ws/install/scan_segmentation/lib:/home/suke/ouxt_automation/robotx_ws/install/robotx_msgs/lib:/home/suke/ouxt_automation/robotx_ws/install/robotx_ekf/lib:/home/suke/ouxt_automation/robotx_ws/install/robotx_costmap_calculator/lib:/home/suke/ouxt_automation/robotx_ws/install/robotx_bt_planner/lib:/home/suke/ouxt_automation/robotx_ws/install/robotx_behavior_tree/lib:/home/suke/ouxt_automation/robotx_ws/install/robotx_behavior_msgs/lib:/home/suke/ouxt_automation/robotx_ws/install/pure_pursuit_planner/lib:/home/suke/ouxt_automation/robotx_ws/install/point_painting/lib:/home/suke/ouxt_automation/robotx_ws/install/perception/lib:/home/suke/ouxt_automation/robotx_ws/install/pcl_apps/lib:/home/suke/ouxt_automation/robotx_ws/install/opencv_components/lib:/home/suke/ouxt_automation/robotx_ws/install/perception_msgs/lib:/home/suke/ouxt_automation/robotx_ws/install/pcl_type_adapter/lib:/home/suke/ouxt_automation/robotx_ws/install/pcl_apps_msgs/lib:/home/suke/ouxt_automation/robotx_ws/install/image_processing_utils/lib:/home/suke/ouxt_automation/robotx_ws/install/image_geometry/lib:/home/suke/ouxt_automation/robotx_ws/install/opencv_vendor/lib:/home/suke/ouxt_automation/robotx_ws/install/odom_frame_publisher/lib:/home/suke/ouxt_automation/robotx_ws/install/nmea_to_geopose/lib:/home/suke/ouxt_automation/robotx_ws/install/ndt_omp/lib:/home/suke/ouxt_automation/robotx_ws/install/lidar_camera_fusion/lib:/home/suke/ouxt_automation/robotx_ws/install/lua_vendor/lib:/home/suke/ouxt_automation/robotx_ws/install/local_waypoint_server/lib:/home/suke/ouxt_automation/robotx_ws/install/hermite_path_planner/lib:/home/suke/ouxt_automation/robotx_ws/install/hermite_path_msgs/lib:/home/suke/ouxt_automation/robotx_ws/install/grid_map_type_adapter/lib:/home/suke/ouxt_automation/robotx_ws/install/geometry_msgs_data_buffer/lib:/home/suke/ouxt_automation/robotx_ws/install/geographic_conversion/lib:/home/suke/ouxt_automation/robotx_ws/install/geodesy/lib:/home/suke/ouxt_automation/robotx_ws/install/geographic_msgs/lib:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2_msg/lib:/home/suke/ouxt_automation/robotx_ws/install/cv_bridge/lib:/home/suke/ouxt_automation/robotx_ws/install/boost_geometry_util/lib:/usr/lib/wsl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64:'), ('HOME', '/home/suke'), ('OLDPWD', '/home/suke'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2590'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/suke/ouxt_automation/robotx_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'suke'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'suke'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/suke/ouxt_automation/robotx_ws/install/sdl2_vendor2/bin:/opt/ros/humble/bin:/usr/local/cuda-11.8/bin:/home/suke/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/suke-G5-5500:@/tmp/.ICE-unix/2548,unix/suke-G5-5500:/tmp/.ICE-unix/2548'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e944f442_6cec_471c_b4c4_e3cc2ce18489'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/suke/ouxt_automation/robotx_ws/install/navi_sim:/home/suke/ouxt_automation/robotx_ws/install/wamv_description:/home/suke/ouxt_automation/robotx_ws/install/wamv_control:/home/suke/ouxt_automation/robotx_ws/install/vrx_bridge:/home/suke/ouxt_automation/robotx_ws/install/vision_opencv:/home/suke/ouxt_automation/robotx_ws/install/robotx_planner_bringup:/home/suke/ouxt_automation/robotx_ws/install/hermite_path_planner_bringup:/home/suke/ouxt_automation/robotx_ws/install/velocity_planner:/home/suke/ouxt_automation/robotx_ws/install/usv_controller:/home/suke/ouxt_automation/robotx_ws/install/robotx_communication:/home/suke/ouxt_automation/robotx_ws/install/tcp_sender:/home/suke/ouxt_automation/robotx_ws/install/playstation_controller_drivers:/home/suke/ouxt_automation/robotx_ws/install/sdl2_vendor2:/home/suke/ouxt_automation/robotx_ws/install/perception_bringup:/home/suke/ouxt_automation/robotx_ws/install/scan_segmentation:/home/suke/ouxt_automation/robotx_ws/install/robotx_msgs:/home/suke/ouxt_automation/robotx_ws/install/robotx_ekf:/home/suke/ouxt_automation/robotx_ws/install/robotx_costmap_calculator:/home/suke/ouxt_automation/robotx_ws/install/robotx_bt_planner:/home/suke/ouxt_automation/robotx_ws/install/robotx_behavior_tree:/home/suke/ouxt_automation/robotx_ws/install/robotx_behavior_msgs:/home/suke/ouxt_automation/robotx_ws/install/pure_pursuit_planner:/home/suke/ouxt_automation/robotx_ws/install/point_painting:/home/suke/ouxt_automation/robotx_ws/install/perception:/home/suke/ouxt_automation/robotx_ws/install/pcl_apps:/home/suke/ouxt_automation/robotx_ws/install/opencv_components:/home/suke/ouxt_automation/robotx_ws/install/perception_msgs:/home/suke/ouxt_automation/robotx_ws/install/pcl_type_adapter:/home/suke/ouxt_automation/robotx_ws/install/pcl_apps_msgs:/home/suke/ouxt_automation/robotx_ws/install/image_processing_utils:/home/suke/ouxt_automation/robotx_ws/install/image_geometry:/home/suke/ouxt_automation/robotx_ws/install/opencv_vendor:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/odom_frame_publisher:/home/suke/ouxt_automation/robotx_ws/install/nmea_to_geopose:/home/suke/ouxt_automation/robotx_ws/install/ndt_omp:/home/suke/ouxt_automation/robotx_ws/install/mock_server:/home/suke/ouxt_automation/robotx_ws/install/lidar_camera_fusion:/home/suke/ouxt_automation/robotx_ws/install/message_synchronizer:/home/suke/ouxt_automation/robotx_ws/install/lua_vendor:/home/suke/ouxt_automation/robotx_ws/install/local_waypoint_server:/home/suke/ouxt_automation/robotx_ws/install/joy_to_twist:/home/suke/ouxt_automation/robotx_ws/install/hungarian_solver:/home/suke/ouxt_automation/robotx_ws/install/hermite_path_planner:/home/suke/ouxt_automation/robotx_ws/install/hermite_path_msgs:/home/suke/ouxt_automation/robotx_ws/install/grid_map_type_adapter:/home/suke/ouxt_automation/robotx_ws/install/geometry_msgs_data_buffer:/home/suke/ouxt_automation/robotx_ws/install/geographic_info:/home/suke/ouxt_automation/robotx_ws/install/geographic_conversion:/home/suke/ouxt_automation/robotx_ws/install/geodesy:/home/suke/ouxt_automation/robotx_ws/install/geographic_msgs:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2_msg:/home/suke/ouxt_automation/robotx_ws/install/data_buffer:/home/suke/ouxt_automation/robotx_ws/install/cv_bridge:/home/suke/ouxt_automation/robotx_ws/install/boost_geometry_util:/home/suke/ouxt_automation/robotx_ws/install/behavior_tree_action_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('CXX', '/usr/lib/ccache/g++'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/suke/chicken_core/build/ekf_localization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/suke/ouxt_automation/robotx_ws/install/robotx_msgs/local/lib/python3.10/dist-packages:/home/suke/ouxt_automation/robotx_ws/install/robotx_behavior_msgs/local/lib/python3.10/dist-packages:/home/suke/ouxt_automation/robotx_ws/install/perception_msgs/local/lib/python3.10/dist-packages:/home/suke/ouxt_automation/robotx_ws/install/pcl_apps_msgs/local/lib/python3.10/dist-packages:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests/lib/python3.10/site-packages:/home/suke/ouxt_automation/robotx_ws/install/hermite_path_msgs/local/lib/python3.10/dist-packages:/home/suke/ouxt_automation/robotx_ws/install/geodesy/local/lib/python3.10/dist-packages:/home/suke/ouxt_automation/robotx_ws/install/geographic_msgs/local/lib/python3.10/dist-packages:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2/lib/python3.10/site-packages:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2_msg/local/lib/python3.10/dist-packages:/home/suke/ouxt_automation/robotx_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('CC', '/usr/lib/ccache/gcc'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CUDA_PATH', '/usr/local/cuda-11.8'), ('CMAKE_PREFIX_PATH', '/home/suke/ouxt_automation/robotx_ws/install/navi_sim:/home/suke/ouxt_automation/robotx_ws/install/wamv_description:/home/suke/ouxt_automation/robotx_ws/install/wamv_control:/home/suke/ouxt_automation/robotx_ws/install/vrx_bridge:/home/suke/ouxt_automation/robotx_ws/install/vision_opencv:/home/suke/ouxt_automation/robotx_ws/install/robotx_planner_bringup:/home/suke/ouxt_automation/robotx_ws/install/hermite_path_planner_bringup:/home/suke/ouxt_automation/robotx_ws/install/velocity_planner:/home/suke/ouxt_automation/robotx_ws/install/usv_controller:/home/suke/ouxt_automation/robotx_ws/install/robotx_communication:/home/suke/ouxt_automation/robotx_ws/install/tcp_sender:/home/suke/ouxt_automation/robotx_ws/install/playstation_controller_drivers:/home/suke/ouxt_automation/robotx_ws/install/sdl2_vendor2:/home/suke/ouxt_automation/robotx_ws/install/perception_bringup:/home/suke/ouxt_automation/robotx_ws/install/scan_segmentation:/home/suke/ouxt_automation/robotx_ws/install/robotx_msgs:/home/suke/ouxt_automation/robotx_ws/install/robotx_ekf:/home/suke/ouxt_automation/robotx_ws/install/robotx_costmap_calculator:/home/suke/ouxt_automation/robotx_ws/install/robotx_bt_planner:/home/suke/ouxt_automation/robotx_ws/install/robotx_behavior_tree:/home/suke/ouxt_automation/robotx_ws/install/robotx_behavior_msgs:/home/suke/ouxt_automation/robotx_ws/install/pure_pursuit_planner:/home/suke/ouxt_automation/robotx_ws/install/point_painting:/home/suke/ouxt_automation/robotx_ws/install/perception:/home/suke/ouxt_automation/robotx_ws/install/pcl_apps:/home/suke/ouxt_automation/robotx_ws/install/opencv_components:/home/suke/ouxt_automation/robotx_ws/install/perception_msgs:/home/suke/ouxt_automation/robotx_ws/install/pcl_type_adapter:/home/suke/ouxt_automation/robotx_ws/install/pcl_apps_msgs:/home/suke/ouxt_automation/robotx_ws/install/image_processing_utils:/home/suke/ouxt_automation/robotx_ws/install/image_geometry:/home/suke/ouxt_automation/robotx_ws/install/opencv_vendor:/home/suke/ouxt_automation/robotx_ws/install/odom_frame_publisher:/home/suke/ouxt_automation/robotx_ws/install/nmea_to_geopose:/home/suke/ouxt_automation/robotx_ws/install/ndt_omp:/home/suke/ouxt_automation/robotx_ws/install/mock_server:/home/suke/ouxt_automation/robotx_ws/install/lidar_camera_fusion:/home/suke/ouxt_automation/robotx_ws/install/message_synchronizer:/home/suke/ouxt_automation/robotx_ws/install/lua_vendor:/home/suke/ouxt_automation/robotx_ws/install/local_waypoint_server:/home/suke/ouxt_automation/robotx_ws/install/joy_to_twist:/home/suke/ouxt_automation/robotx_ws/install/hungarian_solver:/home/suke/ouxt_automation/robotx_ws/install/hermite_path_planner:/home/suke/ouxt_automation/robotx_ws/install/hermite_path_msgs:/home/suke/ouxt_automation/robotx_ws/install/grid_map_type_adapter:/home/suke/ouxt_automation/robotx_ws/install/geometry_msgs_data_buffer:/home/suke/ouxt_automation/robotx_ws/install/geographic_info:/home/suke/ouxt_automation/robotx_ws/install/geographic_conversion:/home/suke/ouxt_automation/robotx_ws/install/geodesy:/home/suke/ouxt_automation/robotx_ws/install/geographic_msgs:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2_msg:/home/suke/ouxt_automation/robotx_ws/install/data_buffer:/home/suke/ouxt_automation/robotx_ws/install/cv_bridge:/home/suke/ouxt_automation/robotx_ws/install/boost_geometry_util:/home/suke/ouxt_automation/robotx_ws/install/behavior_tree_action_builder:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble')]), 'shell': False}
+[0.079200] (ekf_localization) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ekf_localization_component\x1b[0m\n'}
+[0.099803] (-) TimerEvent: {}
+[0.102425] (ekf_localization) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o\x1b[0m\n'}
+[0.199927] (-) TimerEvent: {}
+[0.300214] (-) TimerEvent: {}
+[0.400485] (-) TimerEvent: {}
+[0.500853] (-) TimerEvent: {}
+[0.601367] (-) TimerEvent: {}
+[0.701704] (-) TimerEvent: {}
+[0.801996] (-) TimerEvent: {}
+[0.902324] (-) TimerEvent: {}
+[1.002720] (-) TimerEvent: {}
+[1.103045] (-) TimerEvent: {}
+[1.203398] (-) TimerEvent: {}
+[1.303975] (-) TimerEvent: {}
+[1.404406] (-) TimerEvent: {}
+[1.504858] (-) TimerEvent: {}
+[1.605255] (-) TimerEvent: {}
+[1.705715] (-) TimerEvent: {}
+[1.806134] (-) TimerEvent: {}
+[1.906710] (-) TimerEvent: {}
+[2.007148] (-) TimerEvent: {}
+[2.107671] (-) TimerEvent: {}
+[2.208091] (-) TimerEvent: {}
+[2.308477] (-) TimerEvent: {}
+[2.408947] (-) TimerEvent: {}
+[2.509322] (-) TimerEvent: {}
+[2.609900] (-) TimerEvent: {}
+[2.710237] (-) TimerEvent: {}
+[2.810555] (-) TimerEvent: {}
+[2.910875] (-) TimerEvent: {}
+[3.011182] (-) TimerEvent: {}
+[3.111482] (-) TimerEvent: {}
+[3.211873] (-) TimerEvent: {}
+[3.312194] (-) TimerEvent: {}
+[3.412620] (-) TimerEvent: {}
+[3.513083] (-) TimerEvent: {}
+[3.613478] (-) TimerEvent: {}
+[3.713843] (-) TimerEvent: {}
+[3.814177] (-) TimerEvent: {}
+[3.914566] (-) TimerEvent: {}
+[4.014952] (-) TimerEvent: {}
+[4.115366] (-) TimerEvent: {}
+[4.215805] (-) TimerEvent: {}
+[4.316108] (-) TimerEvent: {}
+[4.416442] (-) TimerEvent: {}
+[4.516798] (-) TimerEvent: {}
+[4.617102] (-) TimerEvent: {}
+[4.717421] (-) TimerEvent: {}
+[4.817803] (-) TimerEvent: {}
+[4.918110] (-) TimerEvent: {}
+[5.018414] (-) TimerEvent: {}
+[5.118787] (-) TimerEvent: {}
+[5.219096] (-) TimerEvent: {}
+[5.319452] (-) TimerEvent: {}
+[5.419886] (-) TimerEvent: {}
+[5.520663] (-) TimerEvent: {}
+[5.621004] (-) TimerEvent: {}
+[5.721340] (-) TimerEvent: {}
+[5.821691] (-) TimerEvent: {}
+[5.922016] (-) TimerEvent: {}
+[6.022377] (-) TimerEvent: {}
+[6.122701] (-) TimerEvent: {}
+[6.223023] (-) TimerEvent: {}
+[6.323289] (-) TimerEvent: {}
+[6.423579] (-) TimerEvent: {}
+[6.523834] (-) TimerEvent: {}
+[6.624082] (-) TimerEvent: {}
+[6.724379] (-) TimerEvent: {}
+[6.824816] (-) TimerEvent: {}
+[6.925175] (-) TimerEvent: {}
+[7.025599] (-) TimerEvent: {}
+[7.126272] (-) TimerEvent: {}
+[7.226684] (-) TimerEvent: {}
+[7.327010] (-) TimerEvent: {}
+[7.427381] (-) TimerEvent: {}
+[7.527720] (-) TimerEvent: {}
+[7.627970] (-) TimerEvent: {}
+[7.728251] (-) TimerEvent: {}
+[7.828568] (-) TimerEvent: {}
+[7.929022] (-) TimerEvent: {}
+[8.029353] (-) TimerEvent: {}
+[8.129736] (-) TimerEvent: {}
+[8.230013] (-) TimerEvent: {}
+[8.330366] (-) TimerEvent: {}
+[8.430673] (-) TimerEvent: {}
+[8.530976] (-) TimerEvent: {}
+[8.631277] (-) TimerEvent: {}
+[8.731575] (-) TimerEvent: {}
+[8.831896] (-) TimerEvent: {}
+[8.932212] (-) TimerEvent: {}
+[9.032511] (-) TimerEvent: {}
+[9.132786] (-) TimerEvent: {}
+[9.144783] (ekf_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ekf_localization::ExtendedKalmanFilter::imu_callback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.144945] (ekf_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:113:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[9.145017] (ekf_localization) StderrLine: {'line': b'  113 |     measurementUpdate(\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K);\n'}
+[9.145077] (ekf_localization) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.145135] (ekf_localization) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[9.145191] (ekf_localization) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[Kconst SharedPtr {aka const std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >}\x1b[m\x1b[K\n'}
+[9.145248] (ekf_localization) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:8\x1b[m\x1b[K:\n'}
+[9.145304] (ekf_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/suke/chicken_core/src/localization/ekf_localization/include/ekf_localization/ekf_localization_component.hpp:35:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid ekf_localization::ExtendedKalmanFilter::measurementUpdate(sensor_msgs::msg::Imu)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.145363] (ekf_localization) StderrLine: {'line': b'   35 |   void measurementUpdate(\x1b[01;36m\x1b[Ksensor_msgs::msg::Imu msg\x1b[m\x1b[K);\n'}
+[9.145418] (ekf_localization) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[9.145472] (ekf_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ekf_localization::ExtendedKalmanFilter::measurementUpdate(sensor_msgs::msg::Imu)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.145581] (ekf_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:179:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[K+=\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[9.145678] (ekf_localization) StderrLine: {'line': b'  179 |   double v \x1b[01;31m\x1b[K+=\x1b[m\x1b[K msg.linear_acceleration.x*dt;\n'}
+[9.145754] (ekf_localization) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.145851] (ekf_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:181:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kv\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.145972] (ekf_localization) StderrLine: {'line': b'  181 |   double dx = \x1b[01;31m\x1b[Kv\x1b[m\x1b[K*cos(theta);\n'}
+[9.146084] (ekf_localization) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.146187] (ekf_localization) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ekf_localization_component.dir/build.make:76: CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o] Error 1\n'}
+[9.146271] (ekf_localization) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ekf_localization_component.dir/all] Error 2\n'}
+[9.146369] (ekf_localization) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.148146] (ekf_localization) CommandEnded: {'returncode': 2}
+[9.199465] (ekf_localization) JobEnded: {'identifier': 'ekf_localization', 'rc': 2}
+[9.210271] (-) EventReactorShutdown: {}

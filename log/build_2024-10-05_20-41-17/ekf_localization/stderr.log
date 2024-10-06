@@ -1,0 +1,49 @@
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:[m[K In constructor ‘[01m[Kekf_localization::ExtendedKalmanFilter::ExtendedKalmanFilter(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:12:44:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kekf_localization::ExtendedKalmanFilter[m[K’ does not have any field named ‘[01m[Kbroadcaster_[m[K’
+   12 | : Node("extended_kalman_filter", options), [01;31m[Kbroadcaster_[m[K(this)
+      |                                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:12:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::Buffer::Buffer()[m[K’
+   12 | : Node("extended_kalman_filter", options), broadcaster_(this[01;31m[K)[m[K
+      |                                                             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.hpp:42[m[K,
+                 from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/include/ekf_localization/ekf_localization_component.hpp:14[m[K,
+                 from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::Buffer::Buffer(rclcpp::Clock::SharedPtr, tf2::Duration, rclcpp::Node::SharedPtr)[m[K’
+   73 |   TF2_ROS_PUBLIC [01;36m[KBuffer[m[K(
+      |                  [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:12:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::TransformListener::TransformListener()[m[K’
+   12 | : Node("extended_kalman_filter", options), broadcaster_(this[01;31m[K)[m[K
+      |                                                             [01;31m[K^[m[K
+In file included from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/include/ekf_localization/ekf_localization_component.hpp:16[m[K,
+                 from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:90:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class AllocatorT> tf2_ros::TransformListener::TransformListener(tf2::BufferCore&, NodeT&&, bool, const rclcpp::QoS&, const rclcpp::QoS&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&)[m[K’
+   90 |   [01;36m[KTransformListener[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:90:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:12:61:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 0 provided
+   12 | : Node("extended_kalman_filter", options), broadcaster_(this[01;36m[K)[m[K
+      |                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/include/ekf_localization/ekf_localization_component.hpp:16[m[K,
+                 from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:87:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::TransformListener::TransformListener(tf2::BufferCore&, bool)[m[K’
+   87 |   explicit [01;36m[KTransformListener[m[K(tf2::BufferCore & buffer, bool spin_thread = true);
+      |            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:87:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:[m[K In member function ‘[01m[Kvoid ekf_localization::ExtendedKalmanFilter::imu_callback(const Imu&)[m[K’:
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:107:33:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Imu[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’}
+  107 |         std::chrono::seconds(msg[01;31m[K->[m[Kheader.stamp.sec) +
+      |                                 [01;31m[K^~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:108:37:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Imu[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’}
+  108 |         std::chrono::nanoseconds(msg[01;31m[K->[m[Kheader.stamp.nanosec));
+      |                                     [01;31m[K^~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:112:12:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Imu[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’}
+  112 |         msg[01;31m[K->[m[Kheader.frame_id,
+      |            [01;31m[K^~[m[K
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:[m[K In member function ‘[01m[Kvoid ekf_localization::ExtendedKalmanFilter::measurementUpdate(const Imu&)[m[K’:
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:245:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kbroadcaster_[m[K’ was not declared in this scope
+  245 |       [01;31m[Kbroadcaster_[m[K.sendTransform(transform_stamped);
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ekf_localization_component.dir/build.make:76: CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ekf_localization_component.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

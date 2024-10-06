@@ -1,0 +1,65 @@
+[0.027s] Invoking command in '/home/suke/chicken_core/build/ekf_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/wheelbot_control:/home/suke/chicken_core/install/sensor_bringup:/home/suke/chicken_core/install/joy_translate:/home/suke/Documents/microros_ws/install/sensor_msgs_py:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/ekf_localization -- -j12 -l12
+[0.083s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.536s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.541s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.552s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.575s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.621s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.732s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.741s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.780s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.078s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.096s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.103s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.104s] -- Configured cppcheck include dirs: /home/suke/chicken_core/src/localization/ekf_localization/include
+[1.104s] -- Configured cppcheck exclude dirs and/or files: 
+[1.110s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.110s] -- Configured cpplint exclude dirs and/or files: 
+[1.113s] -- Added test 'lint_cmake' to check CMake code style
+[1.120s] -- Added test 'uncrustify' to check C / C++ code style
+[1.121s] -- Configured uncrustify additional arguments: 
+[1.122s] -- Added test 'xmllint' to check XML markup files
+[1.126s] -- Configuring done
+[1.143s] -- Generating done
+[1.145s] -- Build files have been written to: /home/suke/chicken_core/build/ekf_localization
+[1.194s] [35m[1mConsolidate compiler generated dependencies of target ekf_localization_component[0m
+[1.226s] [ 50%] [32mBuilding CXX object CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o[0m
+[1.296s] [100%] [32m[1mLinking CXX shared library libekf_localization_component.so[0m
+[2.196s] [100%] Built target ekf_localization_component
+[2.217s] Invoked command in '/home/suke/chicken_core/build/ekf_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/wheelbot_control:/home/suke/chicken_core/install/sensor_bringup:/home/suke/chicken_core/install/joy_translate:/home/suke/Documents/microros_ws/install/sensor_msgs_py:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/ekf_localization -- -j12 -l12
+[2.305s] Invoking command in '/home/suke/chicken_core/build/ekf_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/wheelbot_control:/home/suke/chicken_core/install/sensor_bringup:/home/suke/chicken_core/install/joy_translate:/home/suke/Documents/microros_ws/install/sensor_msgs_py:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/ekf_localization
+[2.320s] -- Install configuration: ""
+[2.321s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/include
+[2.321s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/include/ekf_localization
+[2.321s] -- Installing: /home/suke/chicken_core/install/ekf_localization/include/ekf_localization/ekf_localization_component.hpp
+[2.321s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/include
+[2.321s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/include/ekf_localization
+[2.321s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/include/ekf_localization/ekf_localization_component.hpp
+[2.321s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/environment/library_path.sh
+[2.321s] -- Installing: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/environment/library_path.dsv
+[2.322s] -- Installing: /home/suke/chicken_core/install/ekf_localization/lib/libekf_localization_component.so
+[2.335s] -- Set runtime path of "/home/suke/chicken_core/install/ekf_localization/lib/libekf_localization_component.so" to ""
+[2.335s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/launch
+[2.335s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/launch/ekf_localization_launch.xml
+[2.335s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/config
+[2.335s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/config/ekf.yaml
+[2.335s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/share/ament_index/resource_index/package_run_dependencies/ekf_localization
+[2.335s] -- Installing: /home/suke/chicken_core/install/ekf_localization/share/ament_index/resource_index/parent_prefix_path/ekf_localization
+[2.335s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/environment/ament_prefix_path.sh
+[2.336s] -- Installing: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/environment/ament_prefix_path.dsv
+[2.336s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/environment/path.sh
+[2.336s] -- Installing: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/environment/path.dsv
+[2.336s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/local_setup.bash
+[2.336s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/local_setup.sh
+[2.336s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/local_setup.zsh
+[2.336s] -- Installing: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/local_setup.dsv
+[2.336s] -- Installing: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/package.dsv
+[2.336s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/share/ament_index/resource_index/packages/ekf_localization
+[2.336s] -- Installing: /home/suke/chicken_core/install/ekf_localization/share/ament_index/resource_index/rclcpp_components/ekf_localization
+[2.336s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.337s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.337s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/cmake/ament_cmake_export_libraries-extras.cmake
+[2.337s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/cmake/ekf_localizationConfig.cmake
+[2.337s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/cmake/ekf_localizationConfig-version.cmake
+[2.337s] -- Up-to-date: /home/suke/chicken_core/install/ekf_localization/share/ekf_localization/package.xml
+[2.338s] Invoked command in '/home/suke/chicken_core/build/ekf_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/wheelbot_control:/home/suke/chicken_core/install/sensor_bringup:/home/suke/chicken_core/install/joy_translate:/home/suke/Documents/microros_ws/install/sensor_msgs_py:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/ekf_localization

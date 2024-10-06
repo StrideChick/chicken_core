@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+launch/sensor_bringup_launch.py
+resource/sensor_bringup
+sensor_bringup/__init__.py
+sensor_bringup.egg-info/PKG-INFO
+sensor_bringup.egg-info/SOURCES.txt
+sensor_bringup.egg-info/dependency_links.txt
+sensor_bringup.egg-info/requires.txt
+sensor_bringup.egg-info/top_level.txt
+sensor_bringup.egg-info/zip-safe

@@ -1,0 +1,1 @@
+/home/suke/chicken_core/src/sensor/HesaiLidar_ROS_2.0/msg/msg_ros2/Firetime.msg

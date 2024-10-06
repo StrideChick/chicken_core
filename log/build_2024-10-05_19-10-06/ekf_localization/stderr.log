@@ -1,0 +1,7 @@
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:[m[K In constructor ‘[01m[Kekf_localization::ExtendedKalmanFilter::ExtendedKalmanFilter(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:40:27:[m[K [01;31m[Kerror: [m[K‘[01m[KBEST_EFFORT[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   40 |   rclcpp::QoS qos(rclcpp::[01;31m[KBEST_EFFORT[m[K{10});
+      |                           [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ekf_localization_component.dir/build.make:76: CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ekf_localization_component.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

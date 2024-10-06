@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target pure_pursuit_planner[0m
+[100%] Built target pure_pursuit_planner
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/lib/pure_pursuit_planner/pure_pursuit_planner
+-- Up-to-date symlink: /home/suke/chicken_core/install/pure_pursuit_planner/share/pure_pursuit_planner/launch/pure_pursuit_planner.py
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/suke/chicken_core/src/planner/pure_pursuit_planner/rviz'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+[0m

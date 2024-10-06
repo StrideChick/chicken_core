@@ -1,0 +1,70 @@
+[0.015s] Invoking command in '/home/suke/chicken_core/build/ekf_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/ekf_localization -- -j12 -l12
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target ekf_localization_component[0m
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o[0m
+[7.995s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:[m[K In constructor ‘[01m[Kekf_localization::ExtendedKalmanFilter::ExtendedKalmanFilter(const rclcpp::NodeOptions&)[m[K’:
+[7.995s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:16:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > >::Subscription()[m[K’
+[7.995s]    16 |     : Node("extended_kalman_filter", options[01;31m[K)[m[K
+[7.995s]       |                                             [01;31m[K^[m[K
+[7.995s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[7.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.995s]                  from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:5[m[K:
+[7.996s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:130:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::Subscription(rclcpp::node_interfaces::NodeBaseInterface*, const rosidl_message_type_support_t&, const string&, const rclcpp::QoS&, rclcpp::AnySubscriptionCallback<CallbackMessageT, AllocatorT>, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr) [with MessageT = nav_msgs::msg::Odometry_<std::allocator<void> >; AllocatorT = std::allocator<void>; SubscribedT = nav_msgs::msg::Odometry_<std::allocator<void> >; ROSMessageT = nav_msgs::msg::Odometry_<std::allocator<void> >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> >; rosidl_message_type_support_t = rosidl_message_type_support_t; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > >; rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr = std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<nav_msgs::msg::Odometry_<std::allocator<void> > > >][m[K’
+[7.996s]   130 |   [01;36m[KSubscription[m[K(
+[7.996s]       |   [01;36m[K^~~~~~~~~~~~[m[K
+[7.996s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:130:3:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 0 provided
+[7.996s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:16:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Subscription<sensor_msgs::msg::Imu_<std::allocator<void> > >::Subscription()[m[K’
+[7.996s]    16 |     : Node("extended_kalman_filter", options[01;31m[K)[m[K
+[7.996s]       |                                             [01;31m[K^[m[K
+[7.996s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[7.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.996s]                  from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:5[m[K:
+[7.996s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:130:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::Subscription(rclcpp::node_interfaces::NodeBaseInterface*, const rosidl_message_type_support_t&, const string&, const rclcpp::QoS&, rclcpp::AnySubscriptionCallback<CallbackMessageT, AllocatorT>, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr) [with MessageT = sensor_msgs::msg::Imu_<std::allocator<void> >; AllocatorT = std::allocator<void>; SubscribedT = sensor_msgs::msg::Imu_<std::allocator<void> >; ROSMessageT = sensor_msgs::msg::Imu_<std::allocator<void> >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Imu_<std::allocator<void> >, std::allocator<void> >; rosidl_message_type_support_t = rosidl_message_type_support_t; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Imu_<std::allocator<void> >, std::allocator<void> > >; rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr = std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<sensor_msgs::msg::Imu_<std::allocator<void> > > >][m[K’
+[7.997s]   130 |   [01;36m[KSubscription[m[K(
+[7.997s]       |   [01;36m[K^~~~~~~~~~~~[m[K
+[7.997s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:130:3:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 0 provided
+[7.997s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:45:8:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K’ and ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’)
+[7.997s]    45 |       }[01;31m[K)[m[K;
+[7.997s]       |        [01;31m[K^[m[K
+[7.997s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:35[m[K,
+[7.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34[m[K,
+[7.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.997s]                  from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:5[m[K:
+[7.998s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>& rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::operator=(const rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>&) [with MessageT = nav_msgs::msg::Odometry_<std::allocator<void> >; AllocatorT = std::allocator<void>; SubscribedT = nav_msgs::msg::Odometry_<std::allocator<void> >; ROSMessageT = nav_msgs::msg::Odometry_<std::allocator<void> >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> >][m[K’ (deleted)
+[7.998s]   421 |   [01;36m[KRCLCPP_DISABLE_COPY[m[K(Subscription)
+[7.998s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[7.998s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:421:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’ to ‘[01m[Kconst rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > >&[m[K’
+[7.998s]   421 |   [01;36m[KRCLCPP_DISABLE_COPY[m[K(Subscription)
+[7.998s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[7.998s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:49:8:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Subscription<sensor_msgs::msg::Imu_<std::allocator<void> > >[m[K’ and ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Imu_<std::allocator<void> > > >[m[K’)
+[7.998s]    49 |       }[01;31m[K)[m[K;
+[7.998s]       |        [01;31m[K^[m[K
+[7.999s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:35[m[K,
+[7.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34[m[K,
+[7.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.999s]                  from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:5[m[K:
+[7.999s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>& rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::operator=(const rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>&) [with MessageT = sensor_msgs::msg::Imu_<std::allocator<void> >; AllocatorT = std::allocator<void>; SubscribedT = sensor_msgs::msg::Imu_<std::allocator<void> >; ROSMessageT = sensor_msgs::msg::Imu_<std::allocator<void> >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Imu_<std::allocator<void> >, std::allocator<void> >][m[K’ (deleted)
+[7.999s]   421 |   [01;36m[KRCLCPP_DISABLE_COPY[m[K(Subscription)
+[7.999s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[7.999s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:421:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Imu_<std::allocator<void> > > >[m[K’ to ‘[01m[Kconst rclcpp::Subscription<sensor_msgs::msg::Imu_<std::allocator<void> > >&[m[K’
+[8.000s]   421 |   [01;36m[KRCLCPP_DISABLE_COPY[m[K(Subscription)
+[8.000s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[8.000s] gmake[2]: *** [CMakeFiles/ekf_localization_component.dir/build.make:76: CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o] Error 1
+[8.000s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ekf_localization_component.dir/all] Error 2
+[8.000s] gmake: *** [Makefile:146: all] Error 2
+[8.000s] Invoked command in '/home/suke/chicken_core/build/ekf_localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/ekf_localization -- -j12 -l12

@@ -1,0 +1,1 @@
+/home/suke/chicken_core/build/chicken_utils/ament_cmake_environment_hooks/local_setup.zsh

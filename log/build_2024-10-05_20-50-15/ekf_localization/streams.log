@@ -1,0 +1,28 @@
+[0.021s] Invoking command in '/home/suke/chicken_core/build/ekf_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/wheelbot_control:/home/suke/chicken_core/install/sensor_bringup:/home/suke/chicken_core/install/joy_translate:/home/suke/Documents/microros_ws/install/sensor_msgs_py:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/ekf_localization -- -j12 -l12
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target ekf_localization_component[0m
+[0.118s] [ 50%] [32mBuilding CXX object CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o[0m
+[11.036s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:[m[K In constructor ‘[01m[Kekf_localization::ExtendedKalmanFilter::ExtendedKalmanFilter(const rclcpp::NodeOptions&)[m[K’:
+[11.036s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:15:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::TransformBroadcaster::TransformBroadcaster()[m[K’
+[11.036s]    15 |   listener_(tfbuffer_[01;31m[K)[m[K
+[11.036s]       |                      [01;31m[K^[m[K
+[11.037s] In file included from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/include/ekf_localization/ekf_localization_component.hpp:18[m[K,
+[11.037s]                  from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:4[m[K:
+[11.037s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.h:58:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class AllocatorT> tf2_ros::TransformBroadcaster::TransformBroadcaster(NodeT&&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[11.037s]    58 |   [01;36m[KTransformBroadcaster[m[K(
+[11.037s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[11.037s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.h:58:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.037s] [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:15:22:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[11.037s]    15 |   listener_(tfbuffer_[01;36m[K)[m[K
+[11.037s]       |                      [01;36m[K^[m[K
+[11.038s] In file included from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/include/ekf_localization/ekf_localization_component.hpp:18[m[K,
+[11.038s]                  from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:4[m[K:
+[11.038s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.h:53:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::TransformBroadcaster::TransformBroadcaster(const tf2_ros::TransformBroadcaster&)[m[K’
+[11.038s]    53 | class [01;36m[KTransformBroadcaster[m[K
+[11.038s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[11.038s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.h:53:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[11.038s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.h:53:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::TransformBroadcaster::TransformBroadcaster(tf2_ros::TransformBroadcaster&&)[m[K’
+[11.038s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.h:53:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[11.038s] gmake[2]: *** [CMakeFiles/ekf_localization_component.dir/build.make:76: CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o] Error 1
+[11.039s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ekf_localization_component.dir/all] Error 2
+[11.039s] gmake: *** [Makefile:146: all] Error 2
+[11.040s] Invoked command in '/home/suke/chicken_core/build/ekf_localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/wheelbot_control:/home/suke/chicken_core/install/sensor_bringup:/home/suke/chicken_core/install/joy_translate:/home/suke/Documents/microros_ws/install/sensor_msgs_py:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/ekf_localization -- -j12 -l12
