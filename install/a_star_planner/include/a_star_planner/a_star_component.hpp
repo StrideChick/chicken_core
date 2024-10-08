@@ -1,1 +1,0 @@
-/home/suke/chicken_core/src/planner/a_star_planner/include/a_star_planner/a_star_component.hpp

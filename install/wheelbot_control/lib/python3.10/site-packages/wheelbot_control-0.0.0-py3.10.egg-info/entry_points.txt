@@ -1,2 +1,0 @@
-[console_scripts]
-wheelbot_control_node = wheelbot_control.wheelbot_control_node:main

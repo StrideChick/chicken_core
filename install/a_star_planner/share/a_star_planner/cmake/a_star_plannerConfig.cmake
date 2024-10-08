@@ -1,1 +1,0 @@
-/home/suke/chicken_core/build/a_star_planner/ament_cmake_core/a_star_plannerConfig.cmake

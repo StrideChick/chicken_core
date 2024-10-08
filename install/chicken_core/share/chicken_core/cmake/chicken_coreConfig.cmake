@@ -1,1 +1,0 @@
-/home/suke/chicken_core/build/chicken_core/ament_cmake_core/chicken_coreConfig.cmake

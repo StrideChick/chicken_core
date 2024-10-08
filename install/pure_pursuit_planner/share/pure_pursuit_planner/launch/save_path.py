@@ -1,1 +1,0 @@
-/home/suke/chicken_core/src/planner/pure_pursuit_planner/launch/save_path.py

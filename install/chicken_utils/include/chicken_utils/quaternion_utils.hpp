@@ -1,1 +1,0 @@
-/home/suke/chicken_core/src/core/chicken_utils/include/chicken_utils/quaternion_utils.hpp

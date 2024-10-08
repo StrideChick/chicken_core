@@ -1,1 +1,0 @@
-/home/suke/chicken_core/build/wheelbot_description/ament_cmake_core/wheelbot_descriptionConfig-version.cmake
