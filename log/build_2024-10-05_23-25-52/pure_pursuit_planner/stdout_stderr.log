@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target pure_pursuit_planner[0m
-gmake[2]: *** [CMakeFiles/pure_pursuit_planner.dir/build.make:89: CMakeFiles/pure_pursuit_planner.dir/src/pure_pursuit_planner_component.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pure_pursuit_planner.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:85 (file):
-  file INSTALL cannot find
-  "/home/suke/chicken_core/src/localization/ekf_localization/launch": No such
-  file or directory.
-
-[0m

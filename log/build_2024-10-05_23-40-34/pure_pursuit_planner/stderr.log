@@ -1,7 +1,0 @@
-[01m[K/home/suke/chicken_core/src/planner/pure_pursuit_planner/src/pure_pursuit_planner_component.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> PurePursuitNode::purePursuitControl(int&)[m[K’:
-[01m[K/home/suke/chicken_core/src/planner/pure_pursuit_planner/src/pure_pursuit_planner_component.cpp:34:10:[m[K [01;35m[Kwarning: [m[Kstructured binding declaration set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
-   34 |     auto [01;35m[K[ind, Lf][m[K = searchTargetIndex();
-      |          [01;35m[K^~~~~~~~~[m[K
-[01m[K/home/suke/chicken_core/src/planner/pure_pursuit_planner/src/pure_pursuit_planner_component.cpp:33:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpind[m[K’ [[01;35m[K-Wunused-parameter[m[K]
-   33 | std::pair<double, double> PurePursuitNode::purePursuitControl([01;35m[Kint& pind[m[K) {
-      |                                                               [01;35m[K~~~~~^~~~[m[K

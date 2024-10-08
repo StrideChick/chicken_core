@@ -1,8 +1,0 @@
-In file included from [01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:9[m[K:
-[01m[K/home/suke/chicken_core/src/localization/ekf_localization/include/ekf_localization/ekf_localization_component.hpp:3:10:[m[K [01;31m[Kfatal error: [m[KEigen/Dense: No such file or directory
-    3 | #include [01;31m[K<Eigen/Dense>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/ekf_localization_component.dir/build.make:76: CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ekf_localization_component.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

@@ -1,9 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target ekf_localization_component[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o[0m
-[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:[m[K In member function ‘[01m[Kvoid ekf_localization::ExtendedKalmanFilter::measurementUpdate(const Imu&)[m[K’:
-[01m[K/home/suke/chicken_core/src/localization/ekf_localization/src/ekf_localization_component.cpp:248:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kbroadcaster_[m[K’ was not declared in this scope
-  248 |       [01;31m[Kbroadcaster_[m[K.sendTransform(transform_stamped);
-      |       [01;31m[K^~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/ekf_localization_component.dir/build.make:76: CMakeFiles/ekf_localization_component.dir/src/ekf_localization_component.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ekf_localization_component.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

@@ -1,4 +1,0 @@
-[01m[K/home/suke/chicken_core/src/planner/pure_pursuit_planner/src/pure_pursuit_planner_component.cpp:[m[K In member function ‘[01m[Kvoid PurePursuitNode::updateControl()[m[K’:
-[01m[K/home/suke/chicken_core/src/planner/pure_pursuit_planner/src/pure_pursuit_planner_component.cpp:29:10:[m[K [01;35m[Kwarning: [m[Kstructured binding declaration set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
-   29 |     auto [01;35m[K[v, w][m[K = purePursuitControl(target_ind);
-      |          [01;35m[K^~~~~~[m[K

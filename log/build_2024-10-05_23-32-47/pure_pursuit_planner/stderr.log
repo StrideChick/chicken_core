@@ -1,3 +1,0 @@
-gmake[2]: *** [CMakeFiles/pure_pursuit_planner.dir/build.make:90: CMakeFiles/pure_pursuit_planner.dir/src/pure_pursuit_planner_component.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pure_pursuit_planner.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

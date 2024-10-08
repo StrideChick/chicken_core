@@ -1,6 +1,0 @@
-/usr/bin/ld: CMakeFiles/pure_pursuit_planner.dir/src/pure_pursuit_planner_node.cpp.o: in function `void __gnu_cxx::new_allocator<PurePursuitNode>::construct<PurePursuitNode>(PurePursuitNode*)':
-pure_pursuit_planner_node.cpp:(.text._ZN9__gnu_cxx13new_allocatorI15PurePursuitNodeE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI15PurePursuitNodeE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `PurePursuitNode::PurePursuitNode()'
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/pure_pursuit_planner.dir/build.make:206: pure_pursuit_planner] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pure_pursuit_planner.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
