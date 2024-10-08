@@ -1,9 +1,0 @@
-/home/suke/chicken_core/build/chicken_core/CMakeFiles/uninstall.dir
-/home/suke/chicken_core/build/chicken_core/CMakeFiles/chicken_core_uninstall.dir
-/home/suke/chicken_core/build/chicken_core/CMakeFiles/test.dir
-/home/suke/chicken_core/build/chicken_core/CMakeFiles/edit_cache.dir
-/home/suke/chicken_core/build/chicken_core/CMakeFiles/rebuild_cache.dir
-/home/suke/chicken_core/build/chicken_core/CMakeFiles/list_install_components.dir
-/home/suke/chicken_core/build/chicken_core/CMakeFiles/install.dir
-/home/suke/chicken_core/build/chicken_core/CMakeFiles/install/local.dir
-/home/suke/chicken_core/build/chicken_core/CMakeFiles/install/strip.dir

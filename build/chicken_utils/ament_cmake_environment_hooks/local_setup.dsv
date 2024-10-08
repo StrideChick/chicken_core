@@ -1,3 +1,0 @@
-source;share/chicken_utils/environment/ament_prefix_path.sh
-source;share/chicken_utils/environment/library_path.sh
-source;share/chicken_utils/environment/path.sh

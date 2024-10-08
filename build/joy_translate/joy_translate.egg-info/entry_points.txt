@@ -1,2 +1,0 @@
-[console_scripts]
-joy_translate_node = joy_translate.joy_translate_node:main
