@@ -46,9 +46,21 @@ def generate_launch_description():
     #     PythonLaunchDescriptionSource([get_package_share_directory("linefit_ground_segmentation_ros2") + "/launch/segmentation.launch.py"]),
     # )
 
+    pointcloud_to_laserscan =  Node(
+            package='pointcloud_to_laserscan',
+            executable='laserscan_to_pointcloud_node',
+            name='laserscan_to_pointcloud',
+            remappings=[('scan_in', '/scan'),
+                        ('cloud',  '/cloud')],
+            parameters=[{'target_frame': '', 
+                         'transform_tolerance': 0.01, 
+                         'use_sim_time': True}]
+        )
+    
     return launch.LaunchDescription([
         imu_filter_madgwick,
         realsense2_launch,
         #linefit_ground_segmentation_ros2,
         hesai_ros_driver_launch,
+        pointcloud_to_laserscan,
     ])
