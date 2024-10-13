@@ -1,0 +1,4 @@
+uint32 waypoint_id
+geometry_msgs/PoseStamped pose
+---
+bool goal_reached
