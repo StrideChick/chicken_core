@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Map server node -->
+    <node pkg="nav2_map_server" exec="map_server" name="map_server" output="screen">
+        <param name="yaml_filename" value="$(find-pkg-share map_server)/map/map.yaml"/>
+    </node>
+
+    <!-- Lifecycle manager node -->
+    <node pkg="nav2_lifecycle_manager" exec="lifecycle_manager" name="lifecycle_manager" output="screen">
+        <param name="use_sim_time" value="true"/>
+        <param name="autostart" value="true"/>
+        <param name="node_names" value="[map_server]"/>
+    </node>
+</launch>
