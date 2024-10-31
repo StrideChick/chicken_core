@@ -55,8 +55,9 @@ std::pair<double, double> PurePursuitNode::purePursuitControl(int& pind) {
     double target_vel = (maxVelocity - minVelocity) * pow(sin(acos(std::cbrt(curvature))), 3) + minVelocity; //[m/s]
     double alpha = std::atan2(target_lookahed_y - y, target_lookahed_x - x) - yaw;
     double v = target_vel;
-    double w = v * std::tan(alpha) / Lf;
-
+    //double w = v * std::tan(alpha) / Lf;
+    double w = 2 * v * std::sin(alpha) / wheel_tread;
+    
     pind = ind;
     return { v, w };
 }
