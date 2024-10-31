@@ -56,7 +56,7 @@ std::pair<double, double> PurePursuitNode::purePursuitControl(int& pind) {
     double alpha = std::atan2(target_lookahed_y - y, target_lookahed_x - x) - yaw;
     double v = target_vel;
     //double w = v * std::tan(alpha) / Lf;
-    double w = 2 * v * std::sin(alpha) / wheel_tread;
+    double w = 2 * v * std::sin(alpha) / Lf;
     
     pind = ind;
     return { v, w };
