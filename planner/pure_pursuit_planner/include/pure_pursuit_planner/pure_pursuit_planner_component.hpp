@@ -62,7 +62,6 @@ private:
     double maxVelocity = 0.3;
 
     //robot param
-    wheel_tread = 0.550;
 };
 
 #endif // PURE_PURSUIT_PLANNER_COMPONENT_HPP
