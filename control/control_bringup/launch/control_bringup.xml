@@ -1,0 +1,10 @@
+<launch>
+   <include file="$(find-pkg-share wheelbot_control)/wheelbot_control_launch.py">
+    </include>
+    <node pkg="joy" exec="joy_node">
+    </node>
+    <node pkg="joy_translate" exec="joy_translate">
+    </node>
+    <node pkg="mode_manager" exec="mode_manager">
+    </node>
+</launch>

@@ -1,0 +1,18 @@
+<launch>
+    <arg name="rviz" default="true" description="Launch rviz"/>
+    <arg name="rviz_config" default="$(find-pkg-share chicken_core)/core/chicken_core/rviz/chicken_core.rviz" description="rviz config file"/>
+    <arg name="rviz_respawn" default="true" description="rviz respawn"/>
+    <include file="$(find-pkg-share chicken_simulator)/launch/chicken_simulator_bringup.launch.py">
+    </include>
+    <include file="$(find-pkg-share control_bringup)/launch/control_bringup.xml">
+    </include>
+    <include file="$(find-pkg-share localization_bringup)/launch/localization_bringup.xml">
+    </include>
+    <include file="$(find-pkg-share sensor_bringup)/launch/sensor_bringup.xml">
+    </include>
+    <include file="$(find-pkg-share planner_bringup)/launch/planner_bringup.xml">
+    </include>
+
+    <!--launch rviz-->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rviz_config)" output="screen" respawn="$(arg_rviz_respawn)">
+    </launch>

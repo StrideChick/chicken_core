@@ -1,0 +1,4 @@
+/**:
+  ros__parameters:
+    map_yaml_path : "/opt/ros/humble/share/turtlebot3_navigation2/map/map.yaml"
+    mode : "image"
