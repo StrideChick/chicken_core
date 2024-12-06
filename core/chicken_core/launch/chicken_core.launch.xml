@@ -15,6 +15,6 @@
     </include>
 
     <!--launch rviz-->
-    <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rviz_config)" output="screen" respawn="$(arg_rviz_respawn)"/>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rviz_config)" output="screen" respawn="$(arg rviz_respawn)"/>
 
 </launch>
