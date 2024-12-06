@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="waypoint_manager" exec="waypoint_manager_node">
+    </node>
+</launch>
