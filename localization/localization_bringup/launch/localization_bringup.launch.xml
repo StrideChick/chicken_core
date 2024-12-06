@@ -1,0 +1,8 @@
+<launch>
+   <include file="$(find-pkg-share ekf_localization)/launch/ekf_localization_launch.xml">
+    </include>
+    <!-- <include file="$(find-pkg-share rf2o_laser_odometry)/launch/rf2o_laser_odometry.launch.py">
+    </include> -->
+    <!-- <include file="$(find-pkg-share grid_map_generator)/launch/grid_map_generator.xml">
+    </include>     -->
+</launch>

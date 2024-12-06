@@ -1,0 +1,31 @@
+<launch>
+    <include file="$(find-pkg-share pandar_pointcloud)/launch/pandar.launch.py">
+    </include>
+    <!-- <include file="$(find-pkg-share cloud_cleaner)/launch/cloud_cleaner.xml">
+    </include> -->
+    <!-- <include file="$(find-pkg-share ydlidar_ros2_driver)/launch/ydlidar_launch.py">
+    </include> -->
+    
+    <include file="$(find-pkg-share realsense2_camera)/launch/rs_launch.py">
+        <arg name="enable_gyro" value="True" />
+        <arg name="enable_accel" value="True" />
+        <arg name="unite_imu_method" value="1" />
+        <arg name="enable_sync" value="True"/> 
+        <arg name="depth_module.profile" value="640,480,30"/> 
+        <arg name="rgb_camera.profile" value="640,480,30" /> 
+        <arg name="publish_tf" value="True"/>
+     </include>
+
+    <!-- <node
+        pkg="imu_filter_madgwick"
+        exec="imu_filter_madgwick_node"
+        name="imu_filter_madgwick_node"
+        output="screen">
+        
+        <param name="use_mag" value="False"/>
+        <param name="world_frame" value="enu"/>
+        <param name="publish_tf" value="False"/>
+
+        <remap from="imu/data_raw" to="/camera/camera/imu"/>
+    </node> -->
+</launch>

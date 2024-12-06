@@ -1,0 +1,8 @@
+<launch>
+    <include file="$(find-pkg-share a_star_planner)/launch/a_star_planner.launch.py">
+    </include>
+    <include file="$(find-pkg-share pure_pursuit_planner)/launch/pure_pursuit_planner.py">
+    </include>
+    <include file="$(find-pkg-share waypoint_manager)/launch/waypoint_manager.xml">
+    </include>
+</launch>
