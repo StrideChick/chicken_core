@@ -1,0 +1,9 @@
+repositories:
+    imu_driver:
+        type: git
+        url: https://github.com/rt-net/rt_usb_9axisimu_driver.git
+        version: master
+    ydlidar_ros2_driver:
+        type: git
+        https://github.com/YDLIDAR/ydlidar_ros2_driver.git
+        version: humble
