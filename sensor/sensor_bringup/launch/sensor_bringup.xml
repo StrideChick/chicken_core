@@ -1,26 +1,32 @@
 <launch>
+    <arg name="use_realsense" value="true" description="select imu_sensor"/>
+    <arg name="use_rt_use_imu" value="false" description="select imu_sensor"/>
+
     <include file="$(find-pkg-share pandar_pointcloud)/launch/pandar.launch.py">
     </include>
     <!-- <include file="$(find-pkg-share cloud_cleaner)/launch/cloud_cleaner.xml">
     </include> -->
-    <!-- <include file="$(find-pkg-share ydlidar_ros2_driver)/launch/ydlidar_launch.py">
-    </include> -->
-    
-    <include file="$(find-pkg-share realsense2_camera)/launch/rs_launch.py">
-        <arg name="enable_gyro" value="True" />
-        <arg name="enable_accel" value="True" />
-        <arg name="unite_imu_method" value="1" />
-        <arg name="enable_sync" value="True"/> 
-        <arg name="depth_module.profile" value="640,480,30"/> 
-        <arg name="rgb_camera.profile" value="640,480,30" /> 
-        <arg name="publish_tf" value="True"/>
-     </include>
+    <include file="$(find-pkg-share ydlidar_ros2_driver)/launch/ydlidar_launch.py">
+    </include>
 
-    <!-- <node
-        pkg="imu_filter_madgwick"
-        exec="imu_filter_madgwick_node"
-        name="imu_filter_madgwick_node"
-        output="screen">
+    <group if="$(var use_realsense)">
+        <include file="$(find-pkg-share realsense2_camera)/launch/rs_launch.py">
+            <arg name="enable_gyro" value="True" />
+            <arg name="enable_accel" value="True" />
+            <arg name="unite_imu_method" value="1" />
+            <arg name="enable_sync" value="True"/>
+            <arg name="depth_module.profile" value="640,480,30"/>
+            <arg name="rgb_camera.profile" value="640,480,30" />
+            <arg name="publish_tf" value="True"/>
+        </include>
+    </group>
+
+    <group if="$(var use_rt_use_imu)">
+        <include file="$(find-pkg-share rt_usb_9axisimu_driver)/launch/rt_usb_9axisimu.launch.py">
+        </include>
+    </group>
+
+    <!-- <node pkg="imu_filter_madgwick" exec="imu_filter_madgwick_node" name="imu_filter_madgwick_node" output="screen">
         
         <param name="use_mag" value="False"/>
         <param name="world_frame" value="enu"/>
