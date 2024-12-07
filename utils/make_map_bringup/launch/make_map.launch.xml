@@ -3,11 +3,11 @@
     </include>
     <include file="$(find-pkg-share control_bringup)/launch/control_bringup.xml">
     </include>
-    <include file="$(find-pkg-share localization_bringup)/launch/localization_bringup.xml">
+    <include file="$(find-pkg-share localization_bringup)/launch/localization_bringup.launch.xml">
     </include>
     <include file="$(find-pkg-share sensor_bringup)/launch/sensor_bringup.xml">
     </include>
-    
+
     <include file="$(find-pkg-share traject_recorder)/launch/traject_recorder_manual_launch.xml">
     </include>
 </launch>
